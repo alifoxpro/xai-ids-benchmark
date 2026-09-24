@@ -1,4 +1,4 @@
-# XAI-IDS Benchmark: Leakage-Free, Multi-Criteria Evaluation of Deep-Learning IoT Intrusion Detection
+# Minority-Class Detection in Deep-Learning IoT Intrusion Detection: A Leakage-Free Multi-Criteria Evaluation
 
 Code and result files for the paper
 
