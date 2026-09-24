@@ -1,0 +1,1381 @@
+{
+  "anova": {
+    "test": "One-way ANOVA",
+    "groups": [
+      "CNN_LSTM",
+      "Transformer",
+      "AE_Classifier",
+      "TabNet",
+      "ResNet1D",
+      "BiLSTM_Attention",
+      "GRU",
+      "FT_Transformer",
+      "VotingEnsemble"
+    ],
+    "f_statistic": 917.1541327290153,
+    "p_value": 3.0330094916217913e-186,
+    "eta_squared": 0.9656499086200552,
+    "significant": "True",
+    "conclusion": "Significant difference found (p=0.0000 < 0.05)"
+  },
+  "friedman": {
+    "test": "Friedman test",
+    "groups": [
+      "CNN_LSTM",
+      "Transformer",
+      "AE_Classifier",
+      "TabNet",
+      "ResNet1D",
+      "BiLSTM_Attention",
+      "GRU",
+      "FT_Transformer",
+      "VotingEnsemble"
+    ],
+    "statistic": 226.31111111111113,
+    "p_value": 1.784872025465728e-44,
+    "significant": "True",
+    "conclusion": "Significant difference found (p=0.0000 < 0.05)"
+  },
+  "nemenyi": {
+    "test": "Nemenyi (manual)",
+    "critical_difference": 3.10173034130338,
+    "mean_ranks": {
+      "CNN_LSTM": 112.55,
+      "Transformer": 149.86666666666667,
+      "AE_Classifier": 56.21666666666667,
+      "TabNet": 15.9,
+      "ResNet1D": 71.81666666666666,
+      "BiLSTM_Attention": 195.7,
+      "GRU": 252.36666666666667,
+      "FT_Transformer": 136.65,
+      "VotingEnsemble": 228.43333333333334
+    },
+    "significant_pairs": [
+      {
+        "pair": [
+          "CNN_LSTM",
+          "Transformer"
+        ],
+        "rank_difference": 37.31666666666668
+      },
+      {
+        "pair": [
+          "CNN_LSTM",
+          "AE_Classifier"
+        ],
+        "rank_difference": 56.33333333333333
+      },
+      {
+        "pair": [
+          "CNN_LSTM",
+          "TabNet"
+        ],
+        "rank_difference": 96.64999999999999
+      },
+      {
+        "pair": [
+          "CNN_LSTM",
+          "ResNet1D"
+        ],
+        "rank_difference": 40.733333333333334
+      },
+      {
+        "pair": [
+          "CNN_LSTM",
+          "BiLSTM_Attention"
+        ],
+        "rank_difference": 83.14999999999999
+      },
+      {
+        "pair": [
+          "CNN_LSTM",
+          "GRU"
+        ],
+        "rank_difference": 139.81666666666666
+      },
+      {
+        "pair": [
+          "CNN_LSTM",
+          "FT_Transformer"
+        ],
+        "rank_difference": 24.10000000000001
+      },
+      {
+        "pair": [
+          "CNN_LSTM",
+          "VotingEnsemble"
+        ],
+        "rank_difference": 115.88333333333334
+      },
+      {
+        "pair": [
+          "Transformer",
+          "AE_Classifier"
+        ],
+        "rank_difference": 93.65
+      },
+      {
+        "pair": [
+          "Transformer",
+          "TabNet"
+        ],
+        "rank_difference": 133.96666666666667
+      },
+      {
+        "pair": [
+          "Transformer",
+          "ResNet1D"
+        ],
+        "rank_difference": 78.05000000000001
+      },
+      {
+        "pair": [
+          "Transformer",
+          "BiLSTM_Attention"
+        ],
+        "rank_difference": 45.833333333333314
+      },
+      {
+        "pair": [
+          "Transformer",
+          "GRU"
+        ],
+        "rank_difference": 102.5
+      },
+      {
+        "pair": [
+          "Transformer",
+          "FT_Transformer"
+        ],
+        "rank_difference": 13.216666666666669
+      },
+      {
+        "pair": [
+          "Transformer",
+          "VotingEnsemble"
+        ],
+        "rank_difference": 78.56666666666666
+      },
+      {
+        "pair": [
+          "AE_Classifier",
+          "TabNet"
+        ],
+        "rank_difference": 40.31666666666667
+      },
+      {
+        "pair": [
+          "AE_Classifier",
+          "ResNet1D"
+        ],
+        "rank_difference": 15.599999999999994
+      },
+      {
+        "pair": [
+          "AE_Classifier",
+          "BiLSTM_Attention"
+        ],
+        "rank_difference": 139.48333333333332
+      },
+      {
+        "pair": [
+          "AE_Classifier",
+          "GRU"
+        ],
+        "rank_difference": 196.15
+      },
+      {
+        "pair": [
+          "AE_Classifier",
+          "FT_Transformer"
+        ],
+        "rank_difference": 80.43333333333334
+      },
+      {
+        "pair": [
+          "AE_Classifier",
+          "VotingEnsemble"
+        ],
+        "rank_difference": 172.21666666666667
+      },
+      {
+        "pair": [
+          "TabNet",
+          "ResNet1D"
+        ],
+        "rank_difference": 55.916666666666664
+      },
+      {
+        "pair": [
+          "TabNet",
+          "BiLSTM_Attention"
+        ],
+        "rank_difference": 179.79999999999998
+      },
+      {
+        "pair": [
+          "TabNet",
+          "GRU"
+        ],
+        "rank_difference": 236.46666666666667
+      },
+      {
+        "pair": [
+          "TabNet",
+          "FT_Transformer"
+        ],
+        "rank_difference": 120.75
+      },
+      {
+        "pair": [
+          "TabNet",
+          "VotingEnsemble"
+        ],
+        "rank_difference": 212.53333333333333
+      },
+      {
+        "pair": [
+          "ResNet1D",
+          "BiLSTM_Attention"
+        ],
+        "rank_difference": 123.88333333333333
+      },
+      {
+        "pair": [
+          "ResNet1D",
+          "GRU"
+        ],
+        "rank_difference": 180.55
+      },
+      {
+        "pair": [
+          "ResNet1D",
+          "FT_Transformer"
+        ],
+        "rank_difference": 64.83333333333334
+      },
+      {
+        "pair": [
+          "ResNet1D",
+          "VotingEnsemble"
+        ],
+        "rank_difference": 156.61666666666667
+      },
+      {
+        "pair": [
+          "BiLSTM_Attention",
+          "GRU"
+        ],
+        "rank_difference": 56.666666666666686
+      },
+      {
+        "pair": [
+          "BiLSTM_Attention",
+          "FT_Transformer"
+        ],
+        "rank_difference": 59.04999999999998
+      },
+      {
+        "pair": [
+          "BiLSTM_Attention",
+          "VotingEnsemble"
+        ],
+        "rank_difference": 32.73333333333335
+      },
+      {
+        "pair": [
+          "GRU",
+          "FT_Transformer"
+        ],
+        "rank_difference": 115.71666666666667
+      },
+      {
+        "pair": [
+          "GRU",
+          "VotingEnsemble"
+        ],
+        "rank_difference": 23.933333333333337
+      },
+      {
+        "pair": [
+          "FT_Transformer",
+          "VotingEnsemble"
+        ],
+        "rank_difference": 91.78333333333333
+      }
+    ]
+  },
+  "wilcoxon": [
+    {
+      "test": "Wilcoxon",
+      "statistic": 37.5,
+      "p_value": 6.045230364617028e-05,
+      "significant": "True",
+      "alpha": 0.05,
+      "mean_a": 0.9314899999999999,
+      "mean_b": 0.9331093333333335,
+      "interpretation": "Significant difference (p=0.000060)",
+      "model_a": "CNN_LSTM",
+      "model_b": "Transformer",
+      "holm_significant": true,
+      "holm_corrected_alpha": 0.0125
+    },
+    {
+      "test": "Wilcoxon",
+      "statistic": 9.0,
+      "p_value": 4.27819361845566e-06,
+      "significant": "True",
+      "alpha": 0.05,
+      "mean_a": 0.9314899999999999,
+      "mean_b": 0.9287973333333333,
+      "interpretation": "Significant difference (p=0.000004)",
+      "model_a": "CNN_LSTM",
+      "model_b": "AE_Classifier",
+      "holm_significant": true,
+      "holm_corrected_alpha": 0.0071428571428571435
+    },
+    {
+      "test": "Wilcoxon",
+      "statistic": 0.0,
+      "p_value": 1.733306644199106e-06,
+      "significant": "True",
+      "alpha": 0.05,
+      "mean_a": 0.9314899999999999,
+      "mean_b": 0.9251333333333334,
+      "interpretation": "Significant difference (p=0.000002)",
+      "model_a": "CNN_LSTM",
+      "model_b": "TabNet",
+      "holm_significant": true,
+      "holm_corrected_alpha": 0.0033333333333333335
+    },
+    {
+      "test": "Wilcoxon",
+      "statistic": 22.5,
+      "p_value": 1.564075728923172e-05,
+      "significant": "True",
+      "alpha": 0.05,
+      "mean_a": 0.9314899999999999,
+      "mean_b": 0.9296260000000002,
+      "interpretation": "Significant difference (p=0.000016)",
+      "model_a": "CNN_LSTM",
+      "model_b": "ResNet1D",
+      "holm_significant": true,
+      "holm_corrected_alpha": 0.008333333333333333
+    },
+    {
+      "test": "Wilcoxon",
+      "statistic": 0.0,
+      "p_value": 1.733306644199106e-06,
+      "significant": "True",
+      "alpha": 0.05,
+      "mean_a": 0.9314899999999999,
+      "mean_b": 0.9380219999999999,
+      "interpretation": "Significant difference (p=0.000002)",
+      "model_a": "CNN_LSTM",
+      "model_b": "BiLSTM_Attention",
+      "holm_significant": true,
+      "holm_corrected_alpha": 0.005
+    },
+    {
+      "test": "Wilcoxon",
+      "statistic": 0.0,
+      "p_value": 1.862645149230957e-09,
+      "significant": "True",
+      "alpha": 0.05,
+      "mean_a": 0.9314899999999999,
+      "mean_b": 0.9429373333333334,
+      "interpretation": "Significant difference (p=0.000000)",
+      "model_a": "CNN_LSTM",
+      "model_b": "GRU",
+      "holm_significant": true,
+      "holm_corrected_alpha": 0.001388888888888889
+    },
+    {
+      "test": "Wilcoxon",
+      "statistic": 86.0,
+      "p_value": 0.0025838806615534784,
+      "significant": "True",
+      "alpha": 0.05,
+      "mean_a": 0.9314899999999999,
+      "mean_b": 0.932546,
+      "interpretation": "Significant difference (p=0.002584)",
+      "model_a": "CNN_LSTM",
+      "model_b": "FT_Transformer",
+      "holm_significant": true,
+      "holm_corrected_alpha": 0.016666666666666666
+    },
+    {
+      "test": "Wilcoxon",
+      "statistic": 0.0,
+      "p_value": 1.733306644199106e-06,
+      "significant": "True",
+      "alpha": 0.05,
+      "mean_a": 0.9314899999999999,
+      "mean_b": 0.9411013333333332,
+      "interpretation": "Significant difference (p=0.000002)",
+      "model_a": "CNN_LSTM",
+      "model_b": "VotingEnsemble",
+      "holm_significant": true,
+      "holm_corrected_alpha": 0.005555555555555556
+    },
+    {
+      "test": "Wilcoxon",
+      "statistic": 0.0,
+      "p_value": 1.7311263949197286e-06,
+      "significant": "True",
+      "alpha": 0.05,
+      "mean_a": 0.9331093333333335,
+      "mean_b": 0.9287973333333333,
+      "interpretation": "Significant difference (p=0.000002)",
+      "model_a": "Transformer",
+      "model_b": "AE_Classifier",
+      "holm_significant": true,
+      "holm_corrected_alpha": 0.0019230769230769232
+    },
+    {
+      "test": "Wilcoxon",
+      "statistic": 0.0,
+      "p_value": 1.862645149230957e-09,
+      "significant": "True",
+      "alpha": 0.05,
+      "mean_a": 0.9331093333333335,
+      "mean_b": 0.9251333333333334,
+      "interpretation": "Significant difference (p=0.000000)",
+      "model_a": "Transformer",
+      "model_b": "TabNet",
+      "holm_significant": true,
+      "holm_corrected_alpha": 0.0015151515151515152
+    },
+    {
+      "test": "Wilcoxon",
+      "statistic": 1.0,
+      "p_value": 1.919722783767457e-06,
+      "significant": "True",
+      "alpha": 0.05,
+      "mean_a": 0.9331093333333335,
+      "mean_b": 0.9296260000000002,
+      "interpretation": "Significant difference (p=0.000002)",
+      "model_a": "Transformer",
+      "model_b": "ResNet1D",
+      "holm_significant": true,
+      "holm_corrected_alpha": 0.00625
+    },
+    {
+      "test": "Wilcoxon",
+      "statistic": 0.0,
+      "p_value": 1.862645149230957e-09,
+      "significant": "True",
+      "alpha": 0.05,
+      "mean_a": 0.9331093333333335,
+      "mean_b": 0.9380219999999999,
+      "interpretation": "Significant difference (p=0.000000)",
+      "model_a": "Transformer",
+      "model_b": "BiLSTM_Attention",
+      "holm_significant": true,
+      "holm_corrected_alpha": 0.0014705882352941176
+    },
+    {
+      "test": "Wilcoxon",
+      "statistic": 0.0,
+      "p_value": 1.7322162331441136e-06,
+      "significant": "True",
+      "alpha": 0.05,
+      "mean_a": 0.9331093333333335,
+      "mean_b": 0.9429373333333334,
+      "interpretation": "Significant difference (p=0.000002)",
+      "model_a": "Transformer",
+      "model_b": "GRU",
+      "holm_significant": true,
+      "holm_corrected_alpha": 0.002777777777777778
+    },
+    {
+      "test": "Wilcoxon",
+      "statistic": 139.0,
+      "p_value": 0.05443696746201367,
+      "significant": "False",
+      "alpha": 0.05,
+      "mean_a": 0.9331093333333335,
+      "mean_b": 0.932546,
+      "interpretation": "No significant difference (p=0.054437)",
+      "model_a": "Transformer",
+      "model_b": "FT_Transformer",
+      "holm_significant": false,
+      "holm_corrected_alpha": 0.05
+    },
+    {
+      "test": "Wilcoxon",
+      "statistic": 0.0,
+      "p_value": 1.862645149230957e-09,
+      "significant": "True",
+      "alpha": 0.05,
+      "mean_a": 0.9331093333333335,
+      "mean_b": 0.9411013333333332,
+      "interpretation": "Significant difference (p=0.000000)",
+      "model_a": "Transformer",
+      "model_b": "VotingEnsemble",
+      "holm_significant": true,
+      "holm_corrected_alpha": 0.0014285714285714286
+    },
+    {
+      "test": "Wilcoxon",
+      "statistic": 0.0,
+      "p_value": 1.7322162331441136e-06,
+      "significant": "True",
+      "alpha": 0.05,
+      "mean_a": 0.9287973333333333,
+      "mean_b": 0.9251333333333334,
+      "interpretation": "Significant difference (p=0.000002)",
+      "model_a": "AE_Classifier",
+      "model_b": "TabNet",
+      "holm_significant": true,
+      "holm_corrected_alpha": 0.002173913043478261
+    },
+    {
+      "test": "Wilcoxon",
+      "statistic": 107.5,
+      "p_value": 0.01013730042666837,
+      "significant": "True",
+      "alpha": 0.05,
+      "mean_a": 0.9287973333333333,
+      "mean_b": 0.9296260000000002,
+      "interpretation": "Significant difference (p=0.010137)",
+      "model_a": "AE_Classifier",
+      "model_b": "ResNet1D",
+      "holm_significant": true,
+      "holm_corrected_alpha": 0.025
+    },
+    {
+      "test": "Wilcoxon",
+      "statistic": 0.0,
+      "p_value": 1.7322162331441136e-06,
+      "significant": "True",
+      "alpha": 0.05,
+      "mean_a": 0.9287973333333333,
+      "mean_b": 0.9380219999999999,
+      "interpretation": "Significant difference (p=0.000002)",
+      "model_a": "AE_Classifier",
+      "model_b": "BiLSTM_Attention",
+      "holm_significant": true,
+      "holm_corrected_alpha": 0.002272727272727273
+    },
+    {
+      "test": "Wilcoxon",
+      "statistic": 0.0,
+      "p_value": 1.7322162331441136e-06,
+      "significant": "True",
+      "alpha": 0.05,
+      "mean_a": 0.9287973333333333,
+      "mean_b": 0.9429373333333334,
+      "interpretation": "Significant difference (p=0.000002)",
+      "model_a": "AE_Classifier",
+      "model_b": "GRU",
+      "holm_significant": true,
+      "holm_corrected_alpha": 0.0020833333333333333
+    },
+    {
+      "test": "Wilcoxon",
+      "statistic": 0.0,
+      "p_value": 1.7322162331441136e-06,
+      "significant": "True",
+      "alpha": 0.05,
+      "mean_a": 0.9287973333333333,
+      "mean_b": 0.932546,
+      "interpretation": "Significant difference (p=0.000002)",
+      "model_a": "AE_Classifier",
+      "model_b": "FT_Transformer",
+      "holm_significant": true,
+      "holm_corrected_alpha": 0.002
+    },
+    {
+      "test": "Wilcoxon",
+      "statistic": 0.0,
+      "p_value": 1.7322162331441136e-06,
+      "significant": "True",
+      "alpha": 0.05,
+      "mean_a": 0.9287973333333333,
+      "mean_b": 0.9411013333333332,
+      "interpretation": "Significant difference (p=0.000002)",
+      "model_a": "AE_Classifier",
+      "model_b": "VotingEnsemble",
+      "holm_significant": true,
+      "holm_corrected_alpha": 0.0029411764705882353
+    },
+    {
+      "test": "Wilcoxon",
+      "statistic": 0.0,
+      "p_value": 1.7322162331441136e-06,
+      "significant": "True",
+      "alpha": 0.05,
+      "mean_a": 0.9251333333333334,
+      "mean_b": 0.9296260000000002,
+      "interpretation": "Significant difference (p=0.000002)",
+      "model_a": "TabNet",
+      "model_b": "ResNet1D",
+      "holm_significant": true,
+      "holm_corrected_alpha": 0.002380952380952381
+    },
+    {
+      "test": "Wilcoxon",
+      "statistic": 0.0,
+      "p_value": 1.7311263949197286e-06,
+      "significant": "True",
+      "alpha": 0.05,
+      "mean_a": 0.9251333333333334,
+      "mean_b": 0.9380219999999999,
+      "interpretation": "Significant difference (p=0.000002)",
+      "model_a": "TabNet",
+      "model_b": "BiLSTM_Attention",
+      "holm_significant": true,
+      "holm_corrected_alpha": 0.001851851851851852
+    },
+    {
+      "test": "Wilcoxon",
+      "statistic": 0.0,
+      "p_value": 1.733306644199106e-06,
+      "significant": "True",
+      "alpha": 0.05,
+      "mean_a": 0.9251333333333334,
+      "mean_b": 0.9429373333333334,
+      "interpretation": "Significant difference (p=0.000002)",
+      "model_a": "TabNet",
+      "model_b": "GRU",
+      "holm_significant": true,
+      "holm_corrected_alpha": 0.0038461538461538464
+    },
+    {
+      "test": "Wilcoxon",
+      "statistic": 0.0,
+      "p_value": 1.7322162331441136e-06,
+      "significant": "True",
+      "alpha": 0.05,
+      "mean_a": 0.9251333333333334,
+      "mean_b": 0.932546,
+      "interpretation": "Significant difference (p=0.000002)",
+      "model_a": "TabNet",
+      "model_b": "FT_Transformer",
+      "holm_significant": true,
+      "holm_corrected_alpha": 0.0025
+    },
+    {
+      "test": "Wilcoxon",
+      "statistic": 0.0,
+      "p_value": 1.733306644199106e-06,
+      "significant": "True",
+      "alpha": 0.05,
+      "mean_a": 0.9251333333333334,
+      "mean_b": 0.9411013333333332,
+      "interpretation": "Significant difference (p=0.000002)",
+      "model_a": "TabNet",
+      "model_b": "VotingEnsemble",
+      "holm_significant": true,
+      "holm_corrected_alpha": 0.004545454545454546
+    },
+    {
+      "test": "Wilcoxon",
+      "statistic": 0.0,
+      "p_value": 1.7311263949197286e-06,
+      "significant": "True",
+      "alpha": 0.05,
+      "mean_a": 0.9296260000000002,
+      "mean_b": 0.9380219999999999,
+      "interpretation": "Significant difference (p=0.000002)",
+      "model_a": "ResNet1D",
+      "model_b": "BiLSTM_Attention",
+      "holm_significant": true,
+      "holm_corrected_alpha": 0.0017857142857142859
+    },
+    {
+      "test": "Wilcoxon",
+      "statistic": 0.0,
+      "p_value": 1.733306644199106e-06,
+      "significant": "True",
+      "alpha": 0.05,
+      "mean_a": 0.9296260000000002,
+      "mean_b": 0.9429373333333334,
+      "interpretation": "Significant difference (p=0.000002)",
+      "model_a": "ResNet1D",
+      "model_b": "GRU",
+      "holm_significant": true,
+      "holm_corrected_alpha": 0.0035714285714285718
+    },
+    {
+      "test": "Wilcoxon",
+      "statistic": 5.0,
+      "p_value": 1.862645149230957e-08,
+      "significant": "True",
+      "alpha": 0.05,
+      "mean_a": 0.9296260000000002,
+      "mean_b": 0.932546,
+      "interpretation": "Significant difference (p=0.000000)",
+      "model_a": "ResNet1D",
+      "model_b": "FT_Transformer",
+      "holm_significant": true,
+      "holm_corrected_alpha": 0.001724137931034483
+    },
+    {
+      "test": "Wilcoxon",
+      "statistic": 0.0,
+      "p_value": 1.862645149230957e-09,
+      "significant": "True",
+      "alpha": 0.05,
+      "mean_a": 0.9296260000000002,
+      "mean_b": 0.9411013333333332,
+      "interpretation": "Significant difference (p=0.000000)",
+      "model_a": "ResNet1D",
+      "model_b": "VotingEnsemble",
+      "holm_significant": true,
+      "holm_corrected_alpha": 0.0015625
+    },
+    {
+      "test": "Wilcoxon",
+      "statistic": 0.0,
+      "p_value": 1.733306644199106e-06,
+      "significant": "True",
+      "alpha": 0.05,
+      "mean_a": 0.9380219999999999,
+      "mean_b": 0.9429373333333334,
+      "interpretation": "Significant difference (p=0.000002)",
+      "model_a": "BiLSTM_Attention",
+      "model_b": "GRU",
+      "holm_significant": true,
+      "holm_corrected_alpha": 0.003125
+    },
+    {
+      "test": "Wilcoxon",
+      "statistic": 0.0,
+      "p_value": 1.733306644199106e-06,
+      "significant": "True",
+      "alpha": 0.05,
+      "mean_a": 0.9380219999999999,
+      "mean_b": 0.932546,
+      "interpretation": "Significant difference (p=0.000002)",
+      "model_a": "BiLSTM_Attention",
+      "model_b": "FT_Transformer",
+      "holm_significant": true,
+      "holm_corrected_alpha": 0.004166666666666667
+    },
+    {
+      "test": "Wilcoxon",
+      "statistic": 0.0,
+      "p_value": 1.862645149230957e-09,
+      "significant": "True",
+      "alpha": 0.05,
+      "mean_a": 0.9380219999999999,
+      "mean_b": 0.9411013333333332,
+      "interpretation": "Significant difference (p=0.000000)",
+      "model_a": "BiLSTM_Attention",
+      "model_b": "VotingEnsemble",
+      "holm_significant": true,
+      "holm_corrected_alpha": 0.0016129032258064516
+    },
+    {
+      "test": "Wilcoxon",
+      "statistic": 0.0,
+      "p_value": 1.7322162331441136e-06,
+      "significant": "True",
+      "alpha": 0.05,
+      "mean_a": 0.9429373333333334,
+      "mean_b": 0.932546,
+      "interpretation": "Significant difference (p=0.000002)",
+      "model_a": "GRU",
+      "model_b": "FT_Transformer",
+      "holm_significant": true,
+      "holm_corrected_alpha": 0.002631578947368421
+    },
+    {
+      "test": "Wilcoxon",
+      "statistic": 30.0,
+      "p_value": 3.106310146965982e-05,
+      "significant": "True",
+      "alpha": 0.05,
+      "mean_a": 0.9429373333333334,
+      "mean_b": 0.9411013333333332,
+      "interpretation": "Significant difference (p=0.000031)",
+      "model_a": "GRU",
+      "model_b": "VotingEnsemble",
+      "holm_significant": true,
+      "holm_corrected_alpha": 0.01
+    },
+    {
+      "test": "Wilcoxon",
+      "statistic": 0.0,
+      "p_value": 1.862645149230957e-09,
+      "significant": "True",
+      "alpha": 0.05,
+      "mean_a": 0.932546,
+      "mean_b": 0.9411013333333332,
+      "interpretation": "Significant difference (p=0.000000)",
+      "model_a": "FT_Transformer",
+      "model_b": "VotingEnsemble",
+      "holm_significant": true,
+      "holm_corrected_alpha": 0.0016666666666666668
+    }
+  ],
+  "mcnemar": [
+    {
+      "test": "McNemar",
+      "statistic": 6.177540106951872,
+      "p_value": 0.012938202830714673,
+      "significant": "True",
+      "alpha": 0.05,
+      "n01_a_correct_b_wrong": 429,
+      "n10_a_wrong_b_correct": 506,
+      "interpretation": "Significant difference in error rates (p=0.012938)",
+      "model_a": "CNN_LSTM",
+      "model_b": "Transformer"
+    },
+    {
+      "test": "McNemar",
+      "statistic": 22.24744608399546,
+      "p_value": 2.3967736256791383e-06,
+      "significant": "True",
+      "alpha": 0.05,
+      "n01_a_correct_b_wrong": 511,
+      "n10_a_wrong_b_correct": 370,
+      "interpretation": "Significant difference in error rates (p=0.000002)",
+      "model_a": "CNN_LSTM",
+      "model_b": "AE_Classifier"
+    },
+    {
+      "test": "McNemar",
+      "statistic": 91.2081406105458,
+      "p_value": 0.0,
+      "significant": "True",
+      "alpha": 0.05,
+      "n01_a_correct_b_wrong": 698,
+      "n10_a_wrong_b_correct": 383,
+      "interpretation": "Significant difference in error rates (p=0.000000)",
+      "model_a": "CNN_LSTM",
+      "model_b": "TabNet"
+    },
+    {
+      "test": "McNemar",
+      "statistic": 16.483574244415244,
+      "p_value": 4.907338257098548e-05,
+      "significant": "True",
+      "alpha": 0.05,
+      "n01_a_correct_b_wrong": 437,
+      "n10_a_wrong_b_correct": 324,
+      "interpretation": "Significant difference in error rates (p=0.000049)",
+      "model_a": "CNN_LSTM",
+      "model_b": "ResNet1D"
+    },
+    {
+      "test": "McNemar",
+      "statistic": 154.42251461988303,
+      "p_value": 0.0,
+      "significant": "True",
+      "alpha": 0.05,
+      "n01_a_correct_b_wrong": 179,
+      "n10_a_wrong_b_correct": 505,
+      "interpretation": "Significant difference in error rates (p=0.000000)",
+      "model_a": "CNN_LSTM",
+      "model_b": "BiLSTM_Attention"
+    },
+    {
+      "test": "McNemar",
+      "statistic": 413.88535031847135,
+      "p_value": 0.0,
+      "significant": "True",
+      "alpha": 0.05,
+      "n01_a_correct_b_wrong": 107,
+      "n10_a_wrong_b_correct": 678,
+      "interpretation": "Significant difference in error rates (p=0.000000)",
+      "model_a": "CNN_LSTM",
+      "model_b": "GRU"
+    },
+    {
+      "test": "McNemar",
+      "statistic": 3.5926680244399187,
+      "p_value": 0.058034998528380344,
+      "significant": "False",
+      "alpha": 0.05,
+      "n01_a_correct_b_wrong": 224,
+      "n10_a_wrong_b_correct": 267,
+      "interpretation": "No significant difference in error rates (p=0.058035)",
+      "model_a": "CNN_LSTM",
+      "model_b": "FT_Transformer"
+    },
+    {
+      "test": "McNemar",
+      "statistic": 314.3007299270073,
+      "p_value": 0.0,
+      "significant": "True",
+      "alpha": 0.05,
+      "n01_a_correct_b_wrong": 110,
+      "n10_a_wrong_b_correct": 575,
+      "interpretation": "Significant difference in error rates (p=0.000000)",
+      "model_a": "CNN_LSTM",
+      "model_b": "VotingEnsemble"
+    },
+    {
+      "test": "McNemar",
+      "statistic": 69.24852941176471,
+      "p_value": 1.1102230246251565e-16,
+      "significant": "True",
+      "alpha": 0.05,
+      "n01_a_correct_b_wrong": 449,
+      "n10_a_wrong_b_correct": 231,
+      "interpretation": "Significant difference in error rates (p=0.000000)",
+      "model_a": "Transformer",
+      "model_b": "AE_Classifier"
+    },
+    {
+      "test": "McNemar",
+      "statistic": 165.09827213822894,
+      "p_value": 0.0,
+      "significant": "True",
+      "alpha": 0.05,
+      "n01_a_correct_b_wrong": 659,
+      "n10_a_wrong_b_correct": 267,
+      "interpretation": "Significant difference in error rates (p=0.000000)",
+      "model_a": "Transformer",
+      "model_b": "TabNet"
+    },
+    {
+      "test": "McNemar",
+      "statistic": 40.592045454545456,
+      "p_value": 1.8756873831904386e-10,
+      "significant": "True",
+      "alpha": 0.05,
+      "n01_a_correct_b_wrong": 535,
+      "n10_a_wrong_b_correct": 345,
+      "interpretation": "Significant difference in error rates (p=0.000000)",
+      "model_a": "Transformer",
+      "model_b": "ResNet1D"
+    },
+    {
+      "test": "McNemar",
+      "statistic": 85.77963737796374,
+      "p_value": 0.0,
+      "significant": "True",
+      "alpha": 0.05,
+      "n01_a_correct_b_wrong": 234,
+      "n10_a_wrong_b_correct": 483,
+      "interpretation": "Significant difference in error rates (p=0.000000)",
+      "model_a": "Transformer",
+      "model_b": "BiLSTM_Attention"
+    },
+    {
+      "test": "McNemar",
+      "statistic": 217.7858422939068,
+      "p_value": 0.0,
+      "significant": "True",
+      "alpha": 0.05,
+      "n01_a_correct_b_wrong": 311,
+      "n10_a_wrong_b_correct": 805,
+      "interpretation": "Significant difference in error rates (p=0.000000)",
+      "model_a": "Transformer",
+      "model_b": "GRU"
+    },
+    {
+      "test": "McNemar",
+      "statistic": 1.204646017699115,
+      "p_value": 0.27239506252637946,
+      "significant": "False",
+      "alpha": 0.05,
+      "n01_a_correct_b_wrong": 469,
+      "n10_a_wrong_b_correct": 435,
+      "interpretation": "No significant difference in error rates (p=0.272395)",
+      "model_a": "Transformer",
+      "model_b": "FT_Transformer"
+    },
+    {
+      "test": "McNemar",
+      "statistic": 154.40103092783505,
+      "p_value": 0.0,
+      "significant": "True",
+      "alpha": 0.05,
+      "n01_a_correct_b_wrong": 291,
+      "n10_a_wrong_b_correct": 679,
+      "interpretation": "Significant difference in error rates (p=0.000000)",
+      "model_a": "Transformer",
+      "model_b": "VotingEnsemble"
+    },
+    {
+      "test": "McNemar",
+      "statistic": 49.88166666666667,
+      "p_value": 1.6330270469211428e-12,
+      "significant": "True",
+      "alpha": 0.05,
+      "n01_a_correct_b_wrong": 387,
+      "n10_a_wrong_b_correct": 213,
+      "interpretation": "Significant difference in error rates (p=0.000000)",
+      "model_a": "AE_Classifier",
+      "model_b": "TabNet"
+    },
+    {
+      "test": "McNemar",
+      "statistic": 1.512448132780083,
+      "p_value": 0.2187659027583173,
+      "significant": "False",
+      "alpha": 0.05,
+      "n01_a_correct_b_wrong": 227,
+      "n10_a_wrong_b_correct": 255,
+      "interpretation": "No significant difference in error rates (p=0.218766)",
+      "model_a": "AE_Classifier",
+      "model_b": "ResNet1D"
+    },
+    {
+      "test": "McNemar",
+      "statistic": 312.45467625899283,
+      "p_value": 0.0,
+      "significant": "True",
+      "alpha": 0.05,
+      "n01_a_correct_b_wrong": 114,
+      "n10_a_wrong_b_correct": 581,
+      "interpretation": "Significant difference in error rates (p=0.000000)",
+      "model_a": "AE_Classifier",
+      "model_b": "BiLSTM_Attention"
+    },
+    {
+      "test": "McNemar",
+      "statistic": 451.35803571428573,
+      "p_value": 0.0,
+      "significant": "True",
+      "alpha": 0.05,
+      "n01_a_correct_b_wrong": 204,
+      "n10_a_wrong_b_correct": 916,
+      "interpretation": "Significant difference in error rates (p=0.000000)",
+      "model_a": "AE_Classifier",
+      "model_b": "GRU"
+    },
+    {
+      "test": "McNemar",
+      "statistic": 35.855460385438974,
+      "p_value": 2.1251161941293617e-09,
+      "significant": "True",
+      "alpha": 0.05,
+      "n01_a_correct_b_wrong": 375,
+      "n10_a_wrong_b_correct": 559,
+      "interpretation": "Significant difference in error rates (p=0.000000)",
+      "model_a": "AE_Classifier",
+      "model_b": "FT_Transformer"
+    },
+    {
+      "test": "McNemar",
+      "statistic": 391.889721627409,
+      "p_value": 0.0,
+      "significant": "True",
+      "alpha": 0.05,
+      "n01_a_correct_b_wrong": 164,
+      "n10_a_wrong_b_correct": 770,
+      "interpretation": "Significant difference in error rates (p=0.000000)",
+      "model_a": "AE_Classifier",
+      "model_b": "VotingEnsemble"
+    },
+    {
+      "test": "McNemar",
+      "statistic": 51.140506329113926,
+      "p_value": 8.598677325721837e-13,
+      "significant": "True",
+      "alpha": 0.05,
+      "n01_a_correct_b_wrong": 294,
+      "n10_a_wrong_b_correct": 496,
+      "interpretation": "Significant difference in error rates (p=0.000000)",
+      "model_a": "TabNet",
+      "model_b": "ResNet1D"
+    },
+    {
+      "test": "McNemar",
+      "statistic": 430.70452155625657,
+      "p_value": 0.0,
+      "significant": "True",
+      "alpha": 0.05,
+      "n01_a_correct_b_wrong": 155,
+      "n10_a_wrong_b_correct": 796,
+      "interpretation": "Significant difference in error rates (p=0.000000)",
+      "model_a": "TabNet",
+      "model_b": "BiLSTM_Attention"
+    },
+    {
+      "test": "McNemar",
+      "statistic": 581.0274480712167,
+      "p_value": 0.0,
+      "significant": "True",
+      "alpha": 0.05,
+      "n01_a_correct_b_wrong": 231,
+      "n10_a_wrong_b_correct": 1117,
+      "interpretation": "Significant difference in error rates (p=0.000000)",
+      "model_a": "TabNet",
+      "model_b": "GRU"
+    },
+    {
+      "test": "McNemar",
+      "statistic": 116.07377049180327,
+      "p_value": 0.0,
+      "significant": "True",
+      "alpha": 0.05,
+      "n01_a_correct_b_wrong": 370,
+      "n10_a_wrong_b_correct": 728,
+      "interpretation": "Significant difference in error rates (p=0.000000)",
+      "model_a": "TabNet",
+      "model_b": "FT_Transformer"
+    },
+    {
+      "test": "McNemar",
+      "statistic": 512.5346283783783,
+      "p_value": 0.0,
+      "significant": "True",
+      "alpha": 0.05,
+      "n01_a_correct_b_wrong": 202,
+      "n10_a_wrong_b_correct": 982,
+      "interpretation": "Significant difference in error rates (p=0.000000)",
+      "model_a": "TabNet",
+      "model_b": "VotingEnsemble"
+    },
+    {
+      "test": "McNemar",
+      "statistic": 278.43831640058056,
+      "p_value": 0.0,
+      "significant": "True",
+      "alpha": 0.05,
+      "n01_a_correct_b_wrong": 125,
+      "n10_a_wrong_b_correct": 564,
+      "interpretation": "Significant difference in error rates (p=0.000000)",
+      "model_a": "ResNet1D",
+      "model_b": "BiLSTM_Attention"
+    },
+    {
+      "test": "McNemar",
+      "statistic": 510.3818380743983,
+      "p_value": 0.0,
+      "significant": "True",
+      "alpha": 0.05,
+      "n01_a_correct_b_wrong": 115,
+      "n10_a_wrong_b_correct": 799,
+      "interpretation": "Significant difference in error rates (p=0.000000)",
+      "model_a": "ResNet1D",
+      "model_b": "GRU"
+    },
+    {
+      "test": "McNemar",
+      "statistic": 31.040051679586565,
+      "p_value": 2.5275850523698296e-08,
+      "significant": "True",
+      "alpha": 0.05,
+      "n01_a_correct_b_wrong": 309,
+      "n10_a_wrong_b_correct": 465,
+      "interpretation": "Significant difference in error rates (p=0.000000)",
+      "model_a": "ResNet1D",
+      "model_b": "FT_Transformer"
+    },
+    {
+      "test": "McNemar",
+      "statistic": 461.1204986149584,
+      "p_value": 0.0,
+      "significant": "True",
+      "alpha": 0.05,
+      "n01_a_correct_b_wrong": 72,
+      "n10_a_wrong_b_correct": 650,
+      "interpretation": "Significant difference in error rates (p=0.000000)",
+      "model_a": "ResNet1D",
+      "model_b": "VotingEnsemble"
+    },
+    {
+      "test": "McNemar",
+      "statistic": 84.20933521923621,
+      "p_value": 0.0,
+      "significant": "True",
+      "alpha": 0.05,
+      "n01_a_correct_b_wrong": 231,
+      "n10_a_wrong_b_correct": 476,
+      "interpretation": "Significant difference in error rates (p=0.000000)",
+      "model_a": "BiLSTM_Attention",
+      "model_b": "GRU"
+    },
+    {
+      "test": "McNemar",
+      "statistic": 112.16361071932299,
+      "p_value": 0.0,
+      "significant": "True",
+      "alpha": 0.05,
+      "n01_a_correct_b_wrong": 496,
+      "n10_a_wrong_b_correct": 213,
+      "interpretation": "Significant difference in error rates (p=0.000000)",
+      "model_a": "BiLSTM_Attention",
+      "model_b": "FT_Transformer"
+    },
+    {
+      "test": "McNemar",
+      "statistic": 44.809411764705885,
+      "p_value": 2.1717627696205e-11,
+      "significant": "True",
+      "alpha": 0.05,
+      "n01_a_correct_b_wrong": 143,
+      "n10_a_wrong_b_correct": 282,
+      "interpretation": "Significant difference in error rates (p=0.000000)",
+      "model_a": "BiLSTM_Attention",
+      "model_b": "VotingEnsemble"
+    },
+    {
+      "test": "McNemar",
+      "statistic": 375.30945945945945,
+      "p_value": 0.0,
+      "significant": "True",
+      "alpha": 0.05,
+      "n01_a_correct_b_wrong": 634,
+      "n10_a_wrong_b_correct": 106,
+      "interpretation": "Significant difference in error rates (p=0.000000)",
+      "model_a": "GRU",
+      "model_b": "FT_Transformer"
+    },
+    {
+      "test": "McNemar",
+      "statistic": 39.09574468085106,
+      "p_value": 4.035225487086791e-10,
+      "significant": "True",
+      "alpha": 0.05,
+      "n01_a_correct_b_wrong": 194,
+      "n10_a_wrong_b_correct": 88,
+      "interpretation": "Significant difference in error rates (p=0.000000)",
+      "model_a": "GRU",
+      "model_b": "VotingEnsemble"
+    },
+    {
+      "test": "McNemar",
+      "statistic": 256.8710144927536,
+      "p_value": 0.0,
+      "significant": "True",
+      "alpha": 0.05,
+      "n01_a_correct_b_wrong": 134,
+      "n10_a_wrong_b_correct": 556,
+      "interpretation": "Significant difference in error rates (p=0.000000)",
+      "model_a": "FT_Transformer",
+      "model_b": "VotingEnsemble"
+    }
+  ],
+  "summary": {
+    "n_models": 9,
+    "model_names": [
+      "CNN_LSTM",
+      "Transformer",
+      "AE_Classifier",
+      "TabNet",
+      "ResNet1D",
+      "BiLSTM_Attention",
+      "GRU",
+      "FT_Transformer",
+      "VotingEnsemble"
+    ],
+    "best_model": "GRU",
+    "significant_differences": [
+      "ANOVA: Overall difference significant",
+      "t-test: CNN_LSTM vs Transformer",
+      "t-test: CNN_LSTM vs AE_Classifier",
+      "t-test: CNN_LSTM vs TabNet",
+      "t-test: CNN_LSTM vs ResNet1D",
+      "t-test: CNN_LSTM vs BiLSTM_Attention",
+      "t-test: CNN_LSTM vs GRU",
+      "t-test: CNN_LSTM vs FT_Transformer",
+      "t-test: CNN_LSTM vs VotingEnsemble",
+      "t-test: Transformer vs AE_Classifier",
+      "t-test: Transformer vs TabNet",
+      "t-test: Transformer vs ResNet1D",
+      "t-test: Transformer vs BiLSTM_Attention",
+      "t-test: Transformer vs GRU",
+      "t-test: Transformer vs FT_Transformer",
+      "t-test: Transformer vs VotingEnsemble",
+      "t-test: AE_Classifier vs TabNet",
+      "t-test: AE_Classifier vs ResNet1D",
+      "t-test: AE_Classifier vs BiLSTM_Attention",
+      "t-test: AE_Classifier vs GRU",
+      "t-test: AE_Classifier vs FT_Transformer",
+      "t-test: AE_Classifier vs VotingEnsemble",
+      "t-test: TabNet vs ResNet1D",
+      "t-test: TabNet vs BiLSTM_Attention",
+      "t-test: TabNet vs GRU",
+      "t-test: TabNet vs FT_Transformer",
+      "t-test: TabNet vs VotingEnsemble",
+      "t-test: ResNet1D vs BiLSTM_Attention",
+      "t-test: ResNet1D vs GRU",
+      "t-test: ResNet1D vs FT_Transformer",
+      "t-test: ResNet1D vs VotingEnsemble",
+      "t-test: BiLSTM_Attention vs GRU",
+      "t-test: BiLSTM_Attention vs FT_Transformer",
+      "t-test: BiLSTM_Attention vs VotingEnsemble",
+      "t-test: GRU vs FT_Transformer",
+      "t-test: GRU vs VotingEnsemble",
+      "t-test: FT_Transformer vs VotingEnsemble",
+      "Wilcoxon: CNN_LSTM vs Transformer",
+      "Wilcoxon: CNN_LSTM vs AE_Classifier",
+      "Wilcoxon: CNN_LSTM vs TabNet",
+      "Wilcoxon: CNN_LSTM vs ResNet1D",
+      "Wilcoxon: CNN_LSTM vs BiLSTM_Attention",
+      "Wilcoxon: CNN_LSTM vs GRU",
+      "Wilcoxon: CNN_LSTM vs FT_Transformer",
+      "Wilcoxon: CNN_LSTM vs VotingEnsemble",
+      "Wilcoxon: Transformer vs AE_Classifier",
+      "Wilcoxon: Transformer vs TabNet",
+      "Wilcoxon: Transformer vs ResNet1D",
+      "Wilcoxon: Transformer vs BiLSTM_Attention",
+      "Wilcoxon: Transformer vs GRU",
+      "Wilcoxon: Transformer vs VotingEnsemble",
+      "Wilcoxon: AE_Classifier vs TabNet",
+      "Wilcoxon: AE_Classifier vs ResNet1D",
+      "Wilcoxon: AE_Classifier vs BiLSTM_Attention",
+      "Wilcoxon: AE_Classifier vs GRU",
+      "Wilcoxon: AE_Classifier vs FT_Transformer",
+      "Wilcoxon: AE_Classifier vs VotingEnsemble",
+      "Wilcoxon: TabNet vs ResNet1D",
+      "Wilcoxon: TabNet vs BiLSTM_Attention",
+      "Wilcoxon: TabNet vs GRU",
+      "Wilcoxon: TabNet vs FT_Transformer",
+      "Wilcoxon: TabNet vs VotingEnsemble",
+      "Wilcoxon: ResNet1D vs BiLSTM_Attention",
+      "Wilcoxon: ResNet1D vs GRU",
+      "Wilcoxon: ResNet1D vs FT_Transformer",
+      "Wilcoxon: ResNet1D vs VotingEnsemble",
+      "Wilcoxon: BiLSTM_Attention vs GRU",
+      "Wilcoxon: BiLSTM_Attention vs FT_Transformer",
+      "Wilcoxon: BiLSTM_Attention vs VotingEnsemble",
+      "Wilcoxon: GRU vs FT_Transformer",
+      "Wilcoxon: GRU vs VotingEnsemble",
+      "Wilcoxon: FT_Transformer vs VotingEnsemble",
+      "McNemar: CNN_LSTM vs Transformer",
+      "McNemar: CNN_LSTM vs AE_Classifier",
+      "McNemar: CNN_LSTM vs TabNet",
+      "McNemar: CNN_LSTM vs ResNet1D",
+      "McNemar: CNN_LSTM vs BiLSTM_Attention",
+      "McNemar: CNN_LSTM vs GRU",
+      "McNemar: CNN_LSTM vs VotingEnsemble",
+      "McNemar: Transformer vs AE_Classifier",
+      "McNemar: Transformer vs TabNet",
+      "McNemar: Transformer vs ResNet1D",
+      "McNemar: Transformer vs BiLSTM_Attention",
+      "McNemar: Transformer vs GRU",
+      "McNemar: Transformer vs VotingEnsemble",
+      "McNemar: AE_Classifier vs TabNet",
+      "McNemar: AE_Classifier vs BiLSTM_Attention",
+      "McNemar: AE_Classifier vs GRU",
+      "McNemar: AE_Classifier vs FT_Transformer",
+      "McNemar: AE_Classifier vs VotingEnsemble",
+      "McNemar: TabNet vs ResNet1D",
+      "McNemar: TabNet vs BiLSTM_Attention",
+      "McNemar: TabNet vs GRU",
+      "McNemar: TabNet vs FT_Transformer",
+      "McNemar: TabNet vs VotingEnsemble",
+      "McNemar: ResNet1D vs BiLSTM_Attention",
+      "McNemar: ResNet1D vs GRU",
+      "McNemar: ResNet1D vs FT_Transformer",
+      "McNemar: ResNet1D vs VotingEnsemble",
+      "McNemar: BiLSTM_Attention vs GRU",
+      "McNemar: BiLSTM_Attention vs FT_Transformer",
+      "McNemar: BiLSTM_Attention vs VotingEnsemble",
+      "McNemar: GRU vs FT_Transformer",
+      "McNemar: GRU vs VotingEnsemble",
+      "McNemar: FT_Transformer vs VotingEnsemble"
+    ],
+    "mean_scores": {
+      "CNN_LSTM": 0.9314899999999999,
+      "Transformer": 0.9331093333333335,
+      "AE_Classifier": 0.9287973333333333,
+      "TabNet": 0.9251333333333334,
+      "ResNet1D": 0.9296260000000002,
+      "BiLSTM_Attention": 0.9380219999999999,
+      "GRU": 0.9429373333333334,
+      "FT_Transformer": 0.932546,
+      "VotingEnsemble": 0.9411013333333332
+    }
+  }
+}

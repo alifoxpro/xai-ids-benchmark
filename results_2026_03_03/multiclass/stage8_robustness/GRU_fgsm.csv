@@ -1,0 +1,4 @@
+attack,parameter,baseline_accuracy,adversarial_accuracy,accuracy_drop,robustness_ratio
+FGSM,epsilon=0.1,0.86376,0.7926,0.07116,0.9176160044456794
+FGSM,epsilon=0.3,0.86376,0.74824,0.11551999999999996,0.8662591460590905
+FGSM,epsilon=0.5,0.86376,0.6307,0.23305999999999993,0.7301796795406132

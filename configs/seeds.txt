@@ -1,0 +1,9 @@
+# Random seeds used for variance estimation across the 10-stage pipeline.
+# The first seed (42) is the primary seed used for all single-run results
+# in the main tables. The remaining four seeds are used for mean ± std
+# estimates across all reported metrics.
+17
+42
+123
+2024
+31337

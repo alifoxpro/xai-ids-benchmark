@@ -1,0 +1,23 @@
+{
+  "study_title": "XAI-Based IDS Benchmarking Study",
+  "completion_date": "2026-04-03T21:48:48.251512",
+  "dataset": "CIC IoT-DIAD 2024",
+  "winners": {
+    "feature_selection": "N/A",
+    "ml_model": "GRU",
+    "xai_method": "SHAP"
+  },
+  "key_findings": [
+    "GRU achieves best accuracy-speed tradeoff",
+    "ResNet1D shows best cross-dataset generalization",
+    "SHAP explanations provide 86.7% fidelity",
+    "Overall robustness score: 93.3%"
+  ],
+  "overall_champion": {
+    "configuration": "FS_N/A + GRU",
+    "accuracy": "94.25%",
+    "inference_time": "0 ms",
+    "explainability": "86.7%",
+    "robustness": "93.3%"
+  }
+}

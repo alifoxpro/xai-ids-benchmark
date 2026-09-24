@@ -1,0 +1,4 @@
+attack,parameter,baseline_accuracy,adversarial_accuracy,accuracy_drop,robustness_ratio
+GaussianNoise,sigma=0.05,0.93782,0.92932,0.008499999999999952,0.9909364270329062
+GaussianNoise,sigma=0.1,0.93782,0.86358,0.07423999999999997,0.9208376874026999
+GaussianNoise,sigma=0.15,0.93782,0.78726,0.15056000000000003,0.8394574651852168

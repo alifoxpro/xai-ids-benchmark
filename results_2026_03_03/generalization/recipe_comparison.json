@@ -1,0 +1,44 @@
+{
+  "CIC IoT-DIAD": {
+    "naive": {
+      "accuracy": 0.9354,
+      "balanced_accuracy": 0.4658,
+      "f1_macro": 0.48
+    },
+    "recipe": {
+      "accuracy": 0.9207,
+      "balanced_accuracy": 0.5383,
+      "f1_macro": 0.4768
+    },
+    "bal_acc_gain": 0.073,
+    "acc_cost": 0.015
+  },
+  "UNSW-NB15": {
+    "naive": {
+      "accuracy": 0.762,
+      "balanced_accuracy": 0.5214,
+      "f1_macro": 0.5293
+    },
+    "recipe": {
+      "accuracy": 0.7636,
+      "balanced_accuracy": 0.5813,
+      "f1_macro": 0.5629
+    },
+    "bal_acc_gain": 0.06,
+    "acc_cost": -0.002
+  },
+  "NSL-KDD": {
+    "naive": {
+      "accuracy": 0.7712,
+      "balanced_accuracy": 0.536,
+      "f1_macro": 0.5583
+    },
+    "recipe": {
+      "accuracy": 0.7828,
+      "balanced_accuracy": 0.5669,
+      "f1_macro": 0.5935
+    },
+    "bal_acc_gain": 0.031,
+    "acc_cost": -0.012
+  }
+}

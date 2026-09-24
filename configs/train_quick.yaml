@@ -1,0 +1,61 @@
+# Quick-profile training config: reduced data + epochs for ~6 GPU-hour runs.
+# Use only for code-path validation; final tables use train_default.yaml.
+
+experiment:
+  name: quick
+  output_dir: results_quick
+  primary_seed: 42
+  variance_seeds: [42]
+  log_every: 50
+  save_checkpoints: false
+
+data:
+  dataset_root: "CIC IoT-DIAD 2024/"
+  train_fraction: 0.70
+  val_fraction: 0.15
+  test_fraction: 0.15
+  stratified_split: true
+  chunk_size: 50000
+  dtype: float32
+  deduplicate: true
+  subsample_rows: 1000000   # quick mode uses 1M rows
+
+preprocessing:
+  imputation: median
+  normalization: standard
+  balancing:
+    strategy: hybrid
+    undersample_threshold: 50000
+    smote_threshold: 25000
+    smote_k_neighbors: 5
+    smote_random_state: 42
+
+training:
+  optimizer: adam
+  lr_search:
+    enabled: false
+    fixed_lr: 0.001
+  scheduler:
+    name: ReduceLROnPlateau
+    factor: 0.5
+    patience: 3
+    mode: min
+    min_lr: 1.0e-6
+  early_stopping:
+    monitor: val_loss
+    patience: 5
+    restore_best_weights: true
+  loss: class_weighted_cross_entropy
+  class_weighting: inverse_frequency
+  mixed_precision: true
+  max_epochs: 20
+  batch_sizes:
+    recurrent: 256
+    convolutional: 512
+    attention: 512
+    other: 512
+
+evaluation:
+  metrics: [accuracy, balanced_accuracy, f1_macro, roc_auc]
+  bootstrap_n: 10
+  confidence_level: 0.95

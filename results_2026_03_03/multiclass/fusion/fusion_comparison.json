@@ -1,0 +1,35 @@
+{
+  "base_models": {
+    "GRU": {
+      "accuracy": 0.8972,
+      "balanced_accuracy": 0.5628,
+      "f1_macro": 0.4397
+    },
+    "ResNet1D": {
+      "accuracy": 0.9003,
+      "balanced_accuracy": 0.5801,
+      "f1_macro": 0.4712
+    },
+    "FT_Transformer": {
+      "accuracy": 0.9006,
+      "balanced_accuracy": 0.5836,
+      "f1_macro": 0.4753
+    }
+  },
+  "late_fusion": {
+    "accuracy": 0.9018,
+    "balanced_accuracy": 0.5827,
+    "f1_macro": 0.4711
+  },
+  "early_fusion": {
+    "accuracy": 0.8974,
+    "balanced_accuracy": 0.6514,
+    "f1_macro": 0.4495
+  },
+  "fused_emb_dim": 256,
+  "base": [
+    "GRU",
+    "ResNet1D",
+    "FT_Transformer"
+  ]
+}

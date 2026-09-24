@@ -1,0 +1,101 @@
+{
+  "per_class_error": [
+    {
+      "Class": "Attack",
+      "Support": 2479662,
+      "Correct": 2335022,
+      "Errors": 144640,
+      "Error_Rate": 0.0583
+    },
+    {
+      "Class": "Benign",
+      "Support": 57809,
+      "Correct": 56668,
+      "Errors": 1141,
+      "Error_Rate": 0.0197
+    }
+  ],
+  "confusion_pairs": [
+    {
+      "True_Class": "Attack",
+      "Predicted_Class": "Benign",
+      "Count": 144640,
+      "Percentage": 5.83
+    },
+    {
+      "True_Class": "Benign",
+      "Predicted_Class": "Attack",
+      "Count": 1141,
+      "Percentage": 1.97
+    }
+  ],
+  "total_samples": 2537471,
+  "total_errors": 145781,
+  "error_rate": 0.05745129698033987,
+  "feature_analysis": {
+    "n_correct": 2391690,
+    "n_wrong": 145781,
+    "top_discriminative_features": [
+      {
+        "feature": "Flow Duration",
+        "mean_correct": 0.07243002206087112,
+        "mean_wrong": -1.186630129814148,
+        "abs_diff": 1.2590601444244385
+      },
+      {
+        "feature": "feat_max",
+        "mean_correct": 0.07139747589826584,
+        "mean_wrong": -1.1686722040176392,
+        "abs_diff": 1.2400696277618408
+      },
+      {
+        "feature": "feat_range",
+        "mean_correct": 0.07139747589826584,
+        "mean_wrong": -1.1686722040176392,
+        "abs_diff": 1.2400696277618408
+      },
+      {
+        "feature": "Fwd IAT Total",
+        "mean_correct": 0.06706135720014572,
+        "mean_wrong": -1.0978983640670776,
+        "abs_diff": 1.1649596691131592
+      },
+      {
+        "feature": "feat_std",
+        "mean_correct": 0.06604593992233276,
+        "mean_wrong": -1.0757646560668945,
+        "abs_diff": 1.141810655593872
+      },
+      {
+        "feature": "FIN Flag Count",
+        "mean_correct": -0.055724482983350754,
+        "mean_wrong": 0.9222034811973572,
+        "abs_diff": 0.9779279828071594
+      },
+      {
+        "feature": "feat_mean",
+        "mean_correct": 0.04867692291736603,
+        "mean_wrong": -0.7873217463493347,
+        "abs_diff": 0.8359986543655396
+      },
+      {
+        "feature": "SYN Flag Count",
+        "mean_correct": 0.043558020144701004,
+        "mean_wrong": -0.7203835248947144,
+        "abs_diff": 0.7639415264129639
+      },
+      {
+        "feature": "Fwd PSH Flags",
+        "mean_correct": -0.03381902724504471,
+        "mean_wrong": 0.5382055640220642,
+        "abs_diff": 0.5720245838165283
+      },
+      {
+        "feature": "Bwd Packet Length Max",
+        "mean_correct": -0.030842812731862068,
+        "mean_wrong": 0.5254923701286316,
+        "abs_diff": 0.5563352108001709
+      }
+    ]
+  }
+}

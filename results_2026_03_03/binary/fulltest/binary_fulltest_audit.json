@@ -1,0 +1,82 @@
+{
+  "n_test": 2537471,
+  "class_counts": {
+    "benign": 2479662,
+    "attack": 57809
+  },
+  "majority_baseline_acc": 0.9772178677115916,
+  "models": {
+    "AE_Classifier": {
+      "accuracy": 0.6823,
+      "balanced_accuracy": 0.8346,
+      "f1_weighted": 0.7904,
+      "attack_recall": 0.9942,
+      "attack_precision": 0.0666,
+      "benign_recall": 0.6751,
+      "benign_precision": 0.9998
+    },
+    "BiLSTM_Attention": {
+      "accuracy": 0.8824,
+      "balanced_accuracy": 0.9307,
+      "f1_weighted": 0.9209,
+      "attack_recall": 0.9813,
+      "attack_precision": 0.1602,
+      "benign_recall": 0.8801,
+      "benign_precision": 0.9995
+    },
+    "CNN_LSTM": {
+      "accuracy": 0.9311,
+      "balanced_accuracy": 0.9587,
+      "f1_weighted": 0.9505,
+      "attack_recall": 0.9876,
+      "attack_precision": 0.2469,
+      "benign_recall": 0.9298,
+      "benign_precision": 0.9997
+    },
+    "FT_Transformer": {
+      "accuracy": 0.9326,
+      "balanced_accuracy": 0.9579,
+      "f1_weighted": 0.9515,
+      "attack_recall": 0.9843,
+      "attack_precision": 0.2508,
+      "benign_recall": 0.9314,
+      "benign_precision": 0.9996
+    },
+    "GRU": {
+      "accuracy": 0.7435,
+      "balanced_accuracy": 0.8568,
+      "f1_weighted": 0.833,
+      "attack_recall": 0.9755,
+      "attack_precision": 0.0799,
+      "benign_recall": 0.7381,
+      "benign_precision": 0.9992
+    },
+    "ResNet1D": {
+      "accuracy": 0.673,
+      "balanced_accuracy": 0.8275,
+      "f1_weighted": 0.7837,
+      "attack_recall": 0.9893,
+      "attack_precision": 0.0645,
+      "benign_recall": 0.6657,
+      "benign_precision": 0.9996
+    },
+    "TabNet": {
+      "accuracy": 0.4424,
+      "balanced_accuracy": 0.6775,
+      "f1_weighted": 0.5897,
+      "attack_recall": 0.9239,
+      "attack_precision": 0.0365,
+      "benign_recall": 0.4312,
+      "benign_precision": 0.9959
+    },
+    "Transformer": {
+      "accuracy": 0.8508,
+      "balanced_accuracy": 0.9189,
+      "f1_weighted": 0.9017,
+      "attack_recall": 0.9902,
+      "attack_precision": 0.1315,
+      "benign_recall": 0.8475,
+      "benign_precision": 0.9997
+    }
+  }
+}

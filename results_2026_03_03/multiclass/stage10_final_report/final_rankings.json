@@ -1,0 +1,88 @@
+{
+  "feature_selection": {
+    "best_method": "N/A",
+    "ranking": []
+  },
+  "ml_models": {
+    "best_model": "VotingEnsemble",
+    "best_accuracy": 0.9020866250433496,
+    "ranking": [
+      {
+        "model": "VotingEnsemble",
+        "accuracy": 90.20866250433495,
+        "inference_ms": 0,
+        "rank": 1
+      },
+      {
+        "model": "ResNet1D",
+        "accuracy": 90.11994097799479,
+        "inference_ms": 0,
+        "rank": 2
+      },
+      {
+        "model": "FT_Transformer",
+        "accuracy": 90.05992925057214,
+        "inference_ms": 0,
+        "rank": 3
+      },
+      {
+        "model": "Transformer",
+        "accuracy": 90.0059265508299,
+        "inference_ms": 0,
+        "rank": 4
+      },
+      {
+        "model": "GRU",
+        "accuracy": 89.70551444150016,
+        "inference_ms": 0,
+        "rank": 5
+      },
+      {
+        "model": "TabNet",
+        "accuracy": 88.83868274258307,
+        "inference_ms": 0,
+        "rank": 6
+      },
+      {
+        "model": "TCN",
+        "accuracy": 88.58512533928423,
+        "inference_ms": 0,
+        "rank": 7
+      },
+      {
+        "model": "BiLSTM_Attention",
+        "accuracy": 88.2024720275834,
+        "inference_ms": 0,
+        "rank": 8
+      },
+      {
+        "model": "CNN_LSTM",
+        "accuracy": 88.14713398835663,
+        "inference_ms": 0,
+        "rank": 9
+      },
+      {
+        "model": "AE_Classifier",
+        "accuracy": 87.03440345083142,
+        "inference_ms": 0,
+        "rank": 10
+      }
+    ]
+  },
+  "xai": {
+    "best_method": "SHAP",
+    "fidelity": 0.7666666666666667,
+    "stability": 0,
+    "consistency": 0.1584336658640064
+  },
+  "robustness": {
+    "overall": 0.8638040504968906,
+    "fgsm": 0.8380182766817944,
+    "pgd": 0.8772104588487851,
+    "noise": 0.876183415960092
+  },
+  "generalization": {
+    "best_generalizer": "ResNet1D",
+    "avg_cross_dataset_accuracy": 0.97765
+  }
+}

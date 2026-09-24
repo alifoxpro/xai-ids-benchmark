@@ -1,0 +1,62 @@
+{
+  "criteria": [
+    "Bal-Acc",
+    "Macro-F1",
+    "ROC-AUC",
+    "X-dataset",
+    "Params",
+    "Train-t",
+    "Infer-t"
+  ],
+  "weights": [
+    0.2,
+    0.2,
+    0.1,
+    0.2,
+    0.1,
+    0.1,
+    0.1
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "model": "Transformer",
+      "topsis_score": 0.8849
+    },
+    {
+      "rank": 2,
+      "model": "AE-Classifier",
+      "topsis_score": 0.8742
+    },
+    {
+      "rank": 3,
+      "model": "ResNet1D",
+      "topsis_score": 0.8281
+    },
+    {
+      "rank": 4,
+      "model": "TabNet",
+      "topsis_score": 0.8194
+    },
+    {
+      "rank": 5,
+      "model": "CNN-LSTM",
+      "topsis_score": 0.7571
+    },
+    {
+      "rank": 6,
+      "model": "GRU",
+      "topsis_score": 0.7192
+    },
+    {
+      "rank": 7,
+      "model": "BiLSTM-Attn",
+      "topsis_score": 0.6236
+    },
+    {
+      "rank": 8,
+      "model": "FT-Transformer",
+      "topsis_score": 0.3294
+    }
+  ]
+}

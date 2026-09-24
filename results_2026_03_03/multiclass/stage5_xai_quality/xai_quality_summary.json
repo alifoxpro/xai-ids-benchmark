@@ -1,0 +1,23 @@
+{
+  "quality_metrics": {
+    "SHAP": {
+      "fidelity": 0.7666666666666667,
+      "explanation_time_ms": 4379.300165176392
+    },
+    "LIME": {
+      "fidelity": 0.5666666666666667,
+      "explanation_time_ms": 224.0856091181437
+    },
+    "cross_method_consistency": 0.1584336658640064
+  },
+  "explainer_summary": {
+    "SHAP": {
+      "explanation_time": 131.37900495529175,
+      "n_samples_explained": 30
+    },
+    "LIME": {
+      "explanation_time": 6.7225682735443115,
+      "n_samples_explained": 30
+    }
+  }
+}

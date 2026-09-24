@@ -1,0 +1,182 @@
+[
+  {
+    "feature": "Packet Length Mean",
+    "relevance": 0.4678442767491564,
+    "redundancy": 0,
+    "mrmr_score": 0.4678442767491564
+  },
+  {
+    "feature": "Idle Std",
+    "relevance": 0.2767866359706548,
+    "redundancy": 0.0965321915808186,
+    "mrmr_score": 0.18025444438983618
+  },
+  {
+    "feature": "Fwd Packet Length Min",
+    "relevance": 0.3677084390666885,
+    "redundancy": 0.20331154844782173,
+    "mrmr_score": 0.16439689061886675
+  },
+  {
+    "feature": "Packet Length Variance",
+    "relevance": 0.20693854488800922,
+    "redundancy": 0.049470597626747846,
+    "mrmr_score": 0.15746794726126137
+  },
+  {
+    "feature": "Total Length of Fwd Packet",
+    "relevance": 0.425829090720806,
+    "redundancy": 0.2594300973007531,
+    "mrmr_score": 0.16639899342005288
+  },
+  {
+    "feature": "feat_max",
+    "relevance": 0.2552604549518769,
+    "redundancy": 0.13498353918115144,
+    "mrmr_score": 0.12027691577072544
+  },
+  {
+    "feature": "Fwd Segment Size Avg",
+    "relevance": 0.4423713523943309,
+    "redundancy": 0.3261403916617655,
+    "mrmr_score": 0.11623096073256539
+  },
+  {
+    "feature": "Subflow Fwd Packets",
+    "relevance": 0.21471309845892517,
+    "redundancy": 0.10321099998180948,
+    "mrmr_score": 0.11150209847711569
+  },
+  {
+    "feature": "Packet Length Std",
+    "relevance": 0.2067030891966064,
+    "redundancy": 0.08857084187182511,
+    "mrmr_score": 0.1181322473247813
+  },
+  {
+    "feature": "Fwd Packet Length Max",
+    "relevance": 0.442102272402936,
+    "redundancy": 0.3304416679207154,
+    "mrmr_score": 0.1116606044822206
+  },
+  {
+    "feature": "Bwd Packet Length Mean",
+    "relevance": 0.14741500940590524,
+    "redundancy": 0.03861267500652106,
+    "mrmr_score": 0.10880233439938418
+  },
+  {
+    "feature": "Idle Min",
+    "relevance": 0.33567199191758035,
+    "redundancy": 0.22153456805772712,
+    "mrmr_score": 0.11413742385985323
+  },
+  {
+    "feature": "Bwd Packet Length Min",
+    "relevance": 0.10570277359350144,
+    "redundancy": 0.0011987951072968035,
+    "mrmr_score": 0.10450397848620464
+  },
+  {
+    "feature": "Packet Length Max",
+    "relevance": 0.46259171616169836,
+    "redundancy": 0.3345865318954706,
+    "mrmr_score": 0.12800518426622776
+  },
+  {
+    "feature": "Fwd Packet Length Mean",
+    "relevance": 0.44169792192304924,
+    "redundancy": 0.3408483317618627,
+    "mrmr_score": 0.10084959016118655
+  },
+  {
+    "feature": "Flow IAT Std",
+    "relevance": 0.30077563710118826,
+    "redundancy": 0.19602504411641028,
+    "mrmr_score": 0.10475059298477798
+  },
+  {
+    "feature": "FWD Init Win Bytes",
+    "relevance": 0.13527466705243096,
+    "redundancy": 0.03984315204159812,
+    "mrmr_score": 0.09543151501083284
+  },
+  {
+    "feature": "Average Packet Size",
+    "relevance": 0.464222625407793,
+    "redundancy": 0.3671895360066544,
+    "mrmr_score": 0.09703308940113864
+  },
+  {
+    "feature": "Bwd Packet Length Max",
+    "relevance": 0.14815082241292332,
+    "redundancy": 0.053656140558680815,
+    "mrmr_score": 0.09449468185424251
+  },
+  {
+    "feature": "Bwd Header Length",
+    "relevance": 0.1279343941636779,
+    "redundancy": 0.03866739790096695,
+    "mrmr_score": 0.08926699626271095
+  },
+  {
+    "feature": "Fwd Header Length",
+    "relevance": 0.31829620285585936,
+    "redundancy": 0.2327179739809897,
+    "mrmr_score": 0.08557822887486966
+  },
+  {
+    "feature": "Bwd Segment Size Avg",
+    "relevance": 0.14648345388855133,
+    "redundancy": 0.06377491126639312,
+    "mrmr_score": 0.08270854262215821
+  },
+  {
+    "feature": "Fwd Packet Length Std",
+    "relevance": 0.07849651157453086,
+    "redundancy": 0.0013557960218042201,
+    "mrmr_score": 0.07714071555272664
+  },
+  {
+    "feature": "Idle Mean",
+    "relevance": 0.3386591218444228,
+    "redundancy": 0.25174696320386103,
+    "mrmr_score": 0.08691215864056179
+  },
+  {
+    "feature": "ACK Flag Count",
+    "relevance": 0.20974078680985397,
+    "redundancy": 0.13086294876238222,
+    "mrmr_score": 0.07887783804747175
+  },
+  {
+    "feature": "Flow Bytes/s",
+    "relevance": 0.3540822894720139,
+    "redundancy": 0.27380516922027587,
+    "mrmr_score": 0.08027712025173805
+  },
+  {
+    "feature": "Fwd Act Data Pkts",
+    "relevance": 0.22023164933780848,
+    "redundancy": 0.15647040957275127,
+    "mrmr_score": 0.06376123976505721
+  },
+  {
+    "feature": "Total Length of Bwd Packet",
+    "relevance": 0.1312218313495177,
+    "redundancy": 0.06594205448678381,
+    "mrmr_score": 0.0652797768627339
+  },
+  {
+    "feature": "Packet Length Min",
+    "relevance": 0.3129201512427655,
+    "redundancy": 0.2472693157151806,
+    "mrmr_score": 0.06565083552758491
+  },
+  {
+    "feature": "feat_std",
+    "relevance": 0.28775293101634825,
+    "redundancy": 0.22198174863248069,
+    "mrmr_score": 0.06577118238386756
+  }
+]

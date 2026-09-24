@@ -1,0 +1,79 @@
+{
+  "dataset": "CICIDS2017",
+  "mapping": "binary (BENIGN=0, attack=1)",
+  "n_samples": 2827876,
+  "models": {
+    "AE_Classifier": {
+      "accuracy": 0.7552237085360178,
+      "balanced_accuracy": 0.4990039228717017,
+      "f1_macro": 0.48380339533331457,
+      "attack_recall": 0.07646310524008365,
+      "attack_precision": 0.192776542108148,
+      "benign_recall": 0.9215447405033197,
+      "eval_time_sec": 1.31
+    },
+    "BiLSTM_Attention": {
+      "accuracy": 0.6213094209222753,
+      "balanced_accuracy": 0.43035303181605294,
+      "f1_macro": 0.4334152661189813,
+      "attack_recall": 0.11544031508060285,
+      "attack_precision": 0.0999467979192075,
+      "benign_recall": 0.7452657485515031,
+      "eval_time_sec": 26.19
+    },
+    "CNN_LSTM": {
+      "accuracy": 0.7088061852782795,
+      "balanced_accuracy": 0.6274924152396378,
+      "f1_macro": 0.603921171587273,
+      "attack_recall": 0.4933950941145186,
+      "attack_precision": 0.33647752503345146,
+      "benign_recall": 0.761589736364757,
+      "eval_time_sec": 20.35
+    },
+    "FT_Transformer": {
+      "accuracy": 0.6238431246631748,
+      "balanced_accuracy": 0.5068147583765431,
+      "f1_macro": 0.49824522395501775,
+      "attack_recall": 0.3138192742509289,
+      "attack_precision": 0.2039241784736452,
+      "benign_recall": 0.6998102425021573,
+      "eval_time_sec": 73.57
+    },
+    "GRU": {
+      "accuracy": 0.6555980530970947,
+      "balanced_accuracy": 0.5652990885850107,
+      "f1_macro": 0.545782072397303,
+      "attack_recall": 0.4163839757364937,
+      "attack_precision": 0.26308732908593047,
+      "benign_recall": 0.7142142014335277,
+      "eval_time_sec": 15.15
+    },
+    "ResNet1D": {
+      "accuracy": 0.7441471974018663,
+      "balanced_accuracy": 0.49387203258447526,
+      "f1_macro": 0.48077149008194614,
+      "attack_recall": 0.08113469264548401,
+      "attack_precision": 0.1755157884917365,
+      "benign_recall": 0.9066093725234665,
+      "eval_time_sec": 9.48
+    },
+    "TabNet": {
+      "accuracy": 0.8473363047036009,
+      "balanced_accuracy": 0.6391547637236972,
+      "f1_macro": 0.672255538101417,
+      "attack_recall": 0.2958354595045243,
+      "attack_precision": 0.8053028524474704,
+      "benign_recall": 0.9824740679428702,
+      "eval_time_sec": 2.07
+    },
+    "Transformer": {
+      "accuracy": 0.7504515756702204,
+      "balanced_accuracy": 0.5445671024246415,
+      "f1_macro": 0.5474616915326522,
+      "attack_recall": 0.20503597122302158,
+      "attack_precision": 0.3023976849937991,
+      "benign_recall": 0.8840982336262614,
+      "eval_time_sec": 8.77
+    }
+  }
+}

@@ -1,0 +1,16 @@
+True_Class,Predicted_Class,Count,Percentage
+DDOS,Mirai,47851,11.33
+DOS,Mirai,28540,1.46
+DDOS,Benign,24358,5.77
+Recon,Benign,23820,38.2
+DOS,DDOS,22284,1.14
+DOS,Recon,19740,1.01
+DOS,Benign,15988,0.82
+DDOS,Recon,9624,2.28
+DOS,Spoofing,8695,0.44
+DDOS,Spoofing,8232,1.95
+Spoofing,Benign,7383,32.62
+Recon,Spoofing,4602,7.38
+Benign,Mirai,3774,6.53
+Mirai,Benign,3765,15.71
+DDOS,DOS,3116,0.74

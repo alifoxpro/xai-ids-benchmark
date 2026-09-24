@@ -1,0 +1,7 @@
+{
+  "inference_time_ms": 0.003370218276977539,
+  "throughput_per_sec": 296716.6865218043,
+  "model_size_mb": null,
+  "memory_peak_mb": 0.34232139587402344,
+  "n_parameters": 325512
+}

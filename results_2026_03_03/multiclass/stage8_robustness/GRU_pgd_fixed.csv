@@ -1,0 +1,4 @@
+attack,parameter,baseline_accuracy,adversarial_accuracy,accuracy_drop,robustness_ratio
+PGD,"epsilon=0.1,steps=10",0.8995,0.16284,0.73666,0.18103390772651476
+PGD,"epsilon=0.3,steps=10",0.8995,0.07028,0.82922,0.07813229571984436
+PGD,"epsilon=0.5,steps=10",0.8995,0.04808,0.85142,0.053451917732073376

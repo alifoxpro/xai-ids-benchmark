@@ -1,0 +1,49 @@
+# ---------------------------------------------------------------- data (download separately, see README)
+data/
+CIC IoT-DIAD 2024/
+catboost_info/
+
+# ---------------------------------------------------------------- large binaries
+# cached arrays and trained models are published as GitHub Release assets, not in git
+*.npz
+*.npy
+*.pkl
+*.pt
+*.pth
+*.h5
+models/
+
+# ---------------------------------------------------------------- results
+# only the archived run used in the paper is versioned, and only its small text outputs
+results/
+results_2026_02_28/
+results_2026_03_03/**/stage1_cache/
+results_2026_03_03/**/stage3_cache/
+
+# ---------------------------------------------------------------- manuscript drafts (kept private while under review)
+paper/
+paper_submission/
+paper_figures/
+visualizations/
+PAPER_*.md
+METRICS_REVIEW_AND_DISCUSSION_GUIDE.md
+
+# ---------------------------------------------------------------- Python / tooling
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.log
+
+# ---------------------------------------------------------------- editors / local settings
+.claude/
+.idea/
+.spyproject/
+.vscode/
+
+# ---------------------------------------------------------------- OS / Office temp files
+nul
+Thumbs.db
+desktop.ini
+~$*
+*.tmp
+*.bak

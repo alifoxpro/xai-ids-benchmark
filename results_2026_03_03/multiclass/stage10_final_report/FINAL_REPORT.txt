@@ -1,0 +1,110 @@
+======================================================================
+XAI-BASED IDS BENCHMARKING STUDY - FINAL REPORT
+======================================================================
+
+Report Generated: 2026-03-28T23:50:26.008082
+Primary Dataset: CIC IoT-DIAD 2024
+
+======================================================================
+EXECUTIVE SUMMARY
+======================================================================
+
+WINNERS:
+  Best Feature Selection: N/A
+  Best ML Model: VotingEnsemble
+  Best XAI Method: SHAP
+
+OVERALL CHAMPION CONFIGURATION:
+  Configuration: FS_N/A + VotingEnsemble
+  Accuracy: 90.21%
+  Inference Time: 0 ms
+  Explainability: 76.7%
+  Robustness: 86.4%
+
+======================================================================
+FEATURE SELECTION METHOD RANKINGS
+======================================================================
+
+Rank  Method         Score (%)   
+-----------------------------------
+
+======================================================================
+MACHINE LEARNING MODEL RANKINGS
+======================================================================
+
+Rank  Model          Accuracy (%)   Inference (ms) 
+-------------------------------------------------------
+1     VotingEnsemble 90.21          0.0            
+2     ResNet1D       90.12          0.0            
+3     FT_Transformer 90.06          0.0            
+4     Transformer    90.01          0.0            
+5     GRU            89.71          0.0            
+6     TabNet         88.84          0.0            
+7     TCN            88.59          0.0            
+8     BiLSTM_Attention88.20          0.0            
+9     CNN_LSTM       88.15          0.0            
+10    AE_Classifier  87.03          0.0            
+
+======================================================================
+XAI QUALITY METRICS
+======================================================================
+
+  Fidelity: 76.67%
+  Stability: 0.00%
+  Consistency: 15.84%
+
+======================================================================
+ROBUSTNESS SCORES
+======================================================================
+
+  Overall Robustness: 86.38%
+  FGSM Robustness: 83.80%
+  Noise Robustness: 87.62%
+
+======================================================================
+KEY FINDINGS
+======================================================================
+
+  1. VotingEnsemble achieves best accuracy-speed tradeoff
+  2. ResNet1D shows best cross-dataset generalization
+  3. SHAP explanations provide 76.7% fidelity
+  4. Overall robustness score: 86.4%
+
+======================================================================
+RECOMMENDATIONS
+======================================================================
+
+
+DATA-DRIVEN RECOMMENDATIONS
+============================================================
+
+1. BEST OVERALL MODEL
+   Winner : VotingEnsemble
+   Score  : 0.9021 (90.21%)
+   Reason : Highest test accuracy across all evaluated models
+
+2. BEST ROBUSTNESS
+   Winner : Evaluated Model
+   Score  : 0.8638 (86.38%)
+   Reason : Highest overall robustness under FGSM, PGD, and noise attacks
+
+3. BEST XAI METHOD
+   Winner : SHAP
+   Score  : 0.7667 (76.67%)
+   Reason : Highest fidelity score for model explanations
+
+4. BEST CROSS-DATASET GENERALIZATION
+   Winner : ResNet1D
+   Score  : 0.9777 (97.77%)
+   Reason : Best performance on unseen dataset splits
+
+GENERAL CAUTIONS:
+  • Monitor for concept drift in production environments
+  • Re-evaluate periodically with new attack signatures
+  • Cross-dataset generalization may require fine-tuning
+  • Class-weighted loss is used — ensure weights remain valid
+
+
+======================================================================
+END OF REPORT
+======================================================================

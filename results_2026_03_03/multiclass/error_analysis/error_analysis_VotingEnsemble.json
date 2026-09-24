@@ -1,0 +1,221 @@
+{
+  "per_class_error": [
+    {
+      "Class": "BruteForce",
+      "Support": 540,
+      "Correct": 58,
+      "Errors": 482,
+      "Error_Rate": 0.8926
+    },
+    {
+      "Class": "Web-Based",
+      "Support": 1682,
+      "Correct": 305,
+      "Errors": 1377,
+      "Error_Rate": 0.8187
+    },
+    {
+      "Class": "Recon",
+      "Support": 62353,
+      "Correct": 30987,
+      "Errors": 31366,
+      "Error_Rate": 0.503
+    },
+    {
+      "Class": "Spoofing",
+      "Support": 22633,
+      "Correct": 12095,
+      "Errors": 10538,
+      "Error_Rate": 0.4656
+    },
+    {
+      "Class": "Mirai",
+      "Support": 23959,
+      "Correct": 17822,
+      "Errors": 6137,
+      "Error_Rate": 0.2561
+    },
+    {
+      "Class": "DDOS",
+      "Support": 422174,
+      "Correct": 328403,
+      "Errors": 93771,
+      "Error_Rate": 0.2221
+    },
+    {
+      "Class": "Benign",
+      "Support": 57809,
+      "Correct": 48191,
+      "Errors": 9618,
+      "Error_Rate": 0.1664
+    },
+    {
+      "Class": "DOS",
+      "Support": 1955019,
+      "Correct": 1859004,
+      "Errors": 96015,
+      "Error_Rate": 0.0491
+    }
+  ],
+  "confusion_pairs": [
+    {
+      "True_Class": "DDOS",
+      "Predicted_Class": "Mirai",
+      "Count": 47851,
+      "Percentage": 11.33
+    },
+    {
+      "True_Class": "DOS",
+      "Predicted_Class": "Mirai",
+      "Count": 28540,
+      "Percentage": 1.46
+    },
+    {
+      "True_Class": "DDOS",
+      "Predicted_Class": "Benign",
+      "Count": 24358,
+      "Percentage": 5.77
+    },
+    {
+      "True_Class": "Recon",
+      "Predicted_Class": "Benign",
+      "Count": 23820,
+      "Percentage": 38.2
+    },
+    {
+      "True_Class": "DOS",
+      "Predicted_Class": "DDOS",
+      "Count": 22284,
+      "Percentage": 1.14
+    },
+    {
+      "True_Class": "DOS",
+      "Predicted_Class": "Recon",
+      "Count": 19740,
+      "Percentage": 1.01
+    },
+    {
+      "True_Class": "DOS",
+      "Predicted_Class": "Benign",
+      "Count": 15988,
+      "Percentage": 0.82
+    },
+    {
+      "True_Class": "DDOS",
+      "Predicted_Class": "Recon",
+      "Count": 9624,
+      "Percentage": 2.28
+    },
+    {
+      "True_Class": "DOS",
+      "Predicted_Class": "Spoofing",
+      "Count": 8695,
+      "Percentage": 0.44
+    },
+    {
+      "True_Class": "DDOS",
+      "Predicted_Class": "Spoofing",
+      "Count": 8232,
+      "Percentage": 1.95
+    },
+    {
+      "True_Class": "Spoofing",
+      "Predicted_Class": "Benign",
+      "Count": 7383,
+      "Percentage": 32.62
+    },
+    {
+      "True_Class": "Recon",
+      "Predicted_Class": "Spoofing",
+      "Count": 4602,
+      "Percentage": 7.38
+    },
+    {
+      "True_Class": "Benign",
+      "Predicted_Class": "Mirai",
+      "Count": 3774,
+      "Percentage": 6.53
+    },
+    {
+      "True_Class": "Mirai",
+      "Predicted_Class": "Benign",
+      "Count": 3765,
+      "Percentage": 15.71
+    },
+    {
+      "True_Class": "DDOS",
+      "Predicted_Class": "DOS",
+      "Count": 3116,
+      "Percentage": 0.74
+    }
+  ],
+  "total_samples": 2546169,
+  "total_errors": 249304,
+  "error_rate": 0.09791337495665056,
+  "feature_analysis": {
+    "n_correct": 2296865,
+    "n_wrong": 249304,
+    "top_discriminative_features": [
+      {
+        "feature": "Flow Duration",
+        "mean_correct": 0.13355588912963867,
+        "mean_wrong": -1.222577691078186,
+        "abs_diff": 1.3561335802078247
+      },
+      {
+        "feature": "feat_max",
+        "mean_correct": 0.13188901543617249,
+        "mean_wrong": -1.2074321508407593,
+        "abs_diff": 1.3393211364746094
+      },
+      {
+        "feature": "feat_range",
+        "mean_correct": 0.13188901543617249,
+        "mean_wrong": -1.2074320316314697,
+        "abs_diff": 1.3393210172653198
+      },
+      {
+        "feature": "Fwd IAT Total",
+        "mean_correct": 0.12547801434993744,
+        "mean_wrong": -1.1414932012557983,
+        "abs_diff": 1.266971230506897
+      },
+      {
+        "feature": "feat_std",
+        "mean_correct": 0.12193386256694794,
+        "mean_wrong": -1.1187433004379272,
+        "abs_diff": 1.2406771183013916
+      },
+      {
+        "feature": "FIN Flag Count",
+        "mean_correct": -0.10198190808296204,
+        "mean_wrong": 0.9247464537620544,
+        "abs_diff": 1.0267283916473389
+      },
+      {
+        "feature": "feat_mean",
+        "mean_correct": 0.08979418128728867,
+        "mean_wrong": -0.8259184956550598,
+        "abs_diff": 0.9157126545906067
+      },
+      {
+        "feature": "SYN Flag Count",
+        "mean_correct": 0.07324445247650146,
+        "mean_wrong": -0.6616047024726868,
+        "abs_diff": 0.7348491549491882
+      },
+      {
+        "feature": "Fwd PSH Flags",
+        "mean_correct": -0.0579085499048233,
+        "mean_wrong": 0.5242013335227966,
+        "abs_diff": 0.5821098685264587
+      },
+      {
+        "feature": "Bwd Packet Length Max",
+        "mean_correct": -0.04840518534183502,
+        "mean_wrong": 0.4621536135673523,
+        "abs_diff": 0.5105587840080261
+      }
+    ]
+  }
+}

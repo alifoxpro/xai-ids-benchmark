@@ -1,0 +1,36 @@
+{
+  "UNSW-NB15": {
+    "binary": {
+      "accuracy": 0.8976,
+      "balanced_accuracy": 0.9188,
+      "f1_macro": 0.8893,
+      "f1_weighted": 0.9002
+    },
+    "multiclass": {
+      "accuracy": 0.7636,
+      "balanced_accuracy": 0.5813,
+      "f1_macro": 0.5629,
+      "f1_weighted": 0.7494
+    },
+    "n_classes_multiclass": 10,
+    "n_train": 82332,
+    "n_test": 175341
+  },
+  "NSL-KDD": {
+    "binary": {
+      "accuracy": 0.8091,
+      "balanced_accuracy": 0.8287,
+      "f1_macro": 0.809,
+      "f1_weighted": 0.8083
+    },
+    "multiclass": {
+      "accuracy": 0.7828,
+      "balanced_accuracy": 0.5669,
+      "f1_macro": 0.5935,
+      "f1_weighted": 0.7457
+    },
+    "n_classes_multiclass": 5,
+    "n_train": 125973,
+    "n_test": 22544
+  }
+}

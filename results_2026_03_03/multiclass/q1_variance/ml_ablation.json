@@ -1,0 +1,71 @@
+{
+  "reference": {
+    "accuracy": 0.939782,
+    "balanced_accuracy": 0.4846194930662725,
+    "f1_macro": 0.5080178778458789,
+    "f1_weighted": 0.9376616612078259,
+    "precision_weighted": 0.93830991701348,
+    "train_time": 18.890499353408813,
+    "inference_ms": 0.0012890281677246094
+  },
+  "with_class_weights": {
+    "accuracy": 0.918298,
+    "balanced_accuracy": 0.6378662138714896,
+    "f1_macro": 0.49601817458933506,
+    "train_time": 23.497477769851685
+  },
+  "data_25pct": {
+    "accuracy": 0.934662,
+    "balanced_accuracy": 0.46524044781694907,
+    "f1_macro": 0.4801237837085935,
+    "f1_weighted": 0.9327121131608482,
+    "precision_weighted": 0.9321973205835894,
+    "train_time": 19.84009552001953,
+    "inference_ms": 0.003904003143310547
+  },
+  "data_50pct": {
+    "accuracy": 0.937222,
+    "balanced_accuracy": 0.47624169584464393,
+    "f1_macro": 0.49483447380741885,
+    "f1_weighted": 0.935385181207727,
+    "precision_weighted": 0.9356177229970232,
+    "train_time": 31.583248376846313,
+    "inference_ms": 0.004107908248901367
+  },
+  "data_75pct": {
+    "accuracy": 0.939036,
+    "balanced_accuracy": 0.4931883886049906,
+    "f1_macro": 0.5201588941138271,
+    "f1_weighted": 0.9369066951163196,
+    "precision_weighted": 0.9372365204272024,
+    "train_time": 48.08347153663635,
+    "inference_ms": 0.004470244884490967
+  },
+  "depth_4": {
+    "accuracy": 0.93082,
+    "balanced_accuracy": 0.44032115646697745,
+    "f1_macro": 0.4671055834865943,
+    "f1_weighted": 0.9273385246899309,
+    "precision_weighted": 0.9275333968298229,
+    "train_time": 15.875077247619629,
+    "inference_ms": 0.0006037845611572265
+  },
+  "depth_12": {
+    "accuracy": 0.940654,
+    "balanced_accuracy": 0.49288958601231564,
+    "f1_macro": 0.5126730690609783,
+    "f1_weighted": 0.9390147314343784,
+    "precision_weighted": 0.9391084598777748,
+    "train_time": 33.99798846244812,
+    "inference_ms": 0.002241428852081299
+  },
+  "depth_16": {
+    "accuracy": 0.939906,
+    "balanced_accuracy": 0.5017434830068431,
+    "f1_macro": 0.5195394328223826,
+    "f1_weighted": 0.9386000216890329,
+    "precision_weighted": 0.9384775239915519,
+    "train_time": 44.70301938056946,
+    "inference_ms": 0.0038153953552246093
+  }
+}

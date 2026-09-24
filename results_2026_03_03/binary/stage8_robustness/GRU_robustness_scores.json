@@ -1,0 +1,6 @@
+{
+  "fgsm_robustness": 0.9584026859004454,
+  "pgd_robustness": 0.9221741201225537,
+  "noise_robustness": 0.917077193206941,
+  "overall_robustness": 0.9325513330766467
+}

@@ -1,0 +1,4 @@
+model,source_accuracy,target_accuracy,generalization_ratio,accuracy_gap,rank
+FT_Transformer,0.9774,0.9774,1.0,-0.0,1
+ResNet1D,0.9779,0.9774,0.9995,0.0005,2
+GRU,0.9775,0.9772,0.9997,0.0003,3

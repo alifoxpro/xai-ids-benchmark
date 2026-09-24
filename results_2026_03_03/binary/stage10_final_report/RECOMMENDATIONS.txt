@@ -1,0 +1,29 @@
+
+DATA-DRIVEN RECOMMENDATIONS
+============================================================
+
+1. BEST OVERALL MODEL
+   Winner : GRU
+   Score  : 0.9425 (94.25%)
+   Reason : Highest test accuracy across all evaluated models
+
+2. BEST ROBUSTNESS
+   Winner : Evaluated Model
+   Score  : 0.9326 (93.26%)
+   Reason : Highest overall robustness under FGSM, PGD, and noise attacks
+
+3. BEST XAI METHOD
+   Winner : SHAP
+   Score  : 0.8667 (86.67%)
+   Reason : Highest fidelity score for model explanations
+
+4. BEST CROSS-DATASET GENERALIZATION
+   Winner : ResNet1D
+   Score  : 0.9775 (97.75%)
+   Reason : Best performance on unseen dataset splits
+
+GENERAL CAUTIONS:
+  • Monitor for concept drift in production environments
+  • Re-evaluate periodically with new attack signatures
+  • Cross-dataset generalization may require fine-tuning
+  • Class-weighted loss is used — ensure weights remain valid

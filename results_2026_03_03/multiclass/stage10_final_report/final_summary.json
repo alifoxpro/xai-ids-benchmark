@@ -1,0 +1,23 @@
+{
+  "study_title": "XAI-Based IDS Benchmarking Study",
+  "completion_date": "2026-03-28T23:50:26.008082",
+  "dataset": "CIC IoT-DIAD 2024",
+  "winners": {
+    "feature_selection": "N/A",
+    "ml_model": "VotingEnsemble",
+    "xai_method": "SHAP"
+  },
+  "key_findings": [
+    "VotingEnsemble achieves best accuracy-speed tradeoff",
+    "ResNet1D shows best cross-dataset generalization",
+    "SHAP explanations provide 76.7% fidelity",
+    "Overall robustness score: 86.4%"
+  ],
+  "overall_champion": {
+    "configuration": "FS_N/A + VotingEnsemble",
+    "accuracy": "90.21%",
+    "inference_time": "0 ms",
+    "explainability": "76.7%",
+    "robustness": "86.4%"
+  }
+}

@@ -1,0 +1,46 @@
+\begin{table}
+\caption{Pairwise Statistical Significance (Binary)}
+\label{tab:stat_tests_binary}
+\begin{tabular}{llrrrrrl}
+\toprule
+test & groups & t_statistic & p_value & cohens_d & mean_difference & significant & conclusion \\
+\midrule
+Independent t-test & ['CNN_LSTM', 'Transformer'] & -5.381268 & 0.000001 & -1.413190 & -0.001619 & True & CNN_LSTM significantly different from Transformer (p=0.0000) \\
+Independent t-test & ['CNN_LSTM', 'AE_Classifier'] & 8.589670 & 0.000000 & 2.255758 & 0.002693 & True & CNN_LSTM significantly different from AE_Classifier (p=0.0000) \\
+Independent t-test & ['CNN_LSTM', 'TabNet'] & 23.622253 & 0.000000 & 6.203508 & 0.006357 & True & CNN_LSTM significantly different from TabNet (p=0.0000) \\
+Independent t-test & ['CNN_LSTM', 'ResNet1D'] & 6.011490 & 0.000000 & 1.578695 & 0.001864 & True & CNN_LSTM significantly different from ResNet1D (p=0.0000) \\
+Independent t-test & ['CNN_LSTM', 'BiLSTM_Attention'] & -23.336223 & 0.000000 & -6.128392 & -0.006532 & True & CNN_LSTM significantly different from BiLSTM_Attention (p=0.0000) \\
+Independent t-test & ['CNN_LSTM', 'GRU'] & -40.675505 & 0.000000 & -10.681911 & -0.011447 & True & CNN_LSTM significantly different from GRU (p=0.0000) \\
+Independent t-test & ['CNN_LSTM', 'FT_Transformer'] & -3.622885 & 0.000614 & -0.951416 & -0.001056 & True & CNN_LSTM significantly different from FT_Transformer (p=0.0006) \\
+Independent t-test & ['CNN_LSTM', 'VotingEnsemble'] & -31.550015 & 0.000000 & -8.285440 & -0.009611 & True & CNN_LSTM significantly different from VotingEnsemble (p=0.0000) \\
+Independent t-test & ['Transformer', 'AE_Classifier'] & 14.469565 & 0.000000 & 3.799894 & 0.004312 & True & Transformer significantly different from AE_Classifier (p=0.0000) \\
+Independent t-test & ['Transformer', 'TabNet'] & 31.789311 & 0.000000 & 8.348282 & 0.007976 & True & Transformer significantly different from TabNet (p=0.0000) \\
+Independent t-test & ['Transformer', 'ResNet1D'] & 11.831110 & 0.000000 & 3.107002 & 0.003483 & True & Transformer significantly different from ResNet1D (p=0.0000) \\
+Independent t-test & ['Transformer', 'BiLSTM_Attention'] & -18.717477 & 0.000000 & -4.915450 & -0.004913 & True & Transformer significantly different from BiLSTM_Attention (p=0.0000) \\
+Independent t-test & ['Transformer', 'GRU'] & -37.214983 & 0.000000 & -9.773133 & -0.009828 & True & Transformer significantly different from GRU (p=0.0000) \\
+Independent t-test & ['Transformer', 'FT_Transformer'] & 2.050184 & 0.044876 & 0.538405 & 0.000563 & True & Transformer significantly different from FT_Transformer (p=0.0449) \\
+Independent t-test & ['Transformer', 'VotingEnsemble'] & -27.683471 & 0.000000 & -7.270036 & -0.007992 & True & Transformer significantly different from VotingEnsemble (p=0.0000) \\
+Independent t-test & ['AE_Classifier', 'TabNet'] & 13.783134 & 0.000000 & 3.619628 & 0.003664 & True & AE_Classifier significantly different from TabNet (p=0.0000) \\
+Independent t-test & ['AE_Classifier', 'ResNet1D'] & -2.697095 & 0.009142 & -0.708292 & -0.000829 & True & AE_Classifier significantly different from ResNet1D (p=0.0091) \\
+Independent t-test & ['AE_Classifier', 'BiLSTM_Attention'] & -33.329559 & 0.000000 & -8.752771 & -0.009225 & True & AE_Classifier significantly different from BiLSTM_Attention (p=0.0000) \\
+Independent t-test & ['AE_Classifier', 'GRU'] & -50.806482 & 0.000000 & -13.342436 & -0.014140 & True & AE_Classifier significantly different from GRU (p=0.0000) \\
+Independent t-test & ['AE_Classifier', 'FT_Transformer'] & -12.995023 & 0.000000 & -3.412660 & -0.003749 & True & AE_Classifier significantly different from FT_Transformer (p=0.0000) \\
+Independent t-test & ['AE_Classifier', 'VotingEnsemble'] & -40.774352 & 0.000000 & -10.707869 & -0.012304 & True & AE_Classifier significantly different from VotingEnsemble (p=0.0000) \\
+Independent t-test & ['TabNet', 'ResNet1D'] & -17.160100 & 0.000000 & -4.506463 & -0.004493 & True & TabNet significantly different from ResNet1D (p=0.0000) \\
+Independent t-test & ['TabNet', 'BiLSTM_Attention'] & -57.213899 & 0.000000 & -15.025106 & -0.012889 & True & TabNet significantly different from BiLSTM_Attention (p=0.0000) \\
+Independent t-test & ['TabNet', 'GRU'] & -78.376296 & 0.000000 & -20.582624 & -0.017804 & True & TabNet significantly different from GRU (p=0.0000) \\
+Independent t-test & ['TabNet', 'FT_Transformer'] & -30.950787 & 0.000000 & -8.128075 & -0.007413 & True & TabNet significantly different from FT_Transformer (p=0.0000) \\
+Independent t-test & ['TabNet', 'VotingEnsemble'] & -62.534074 & 0.000000 & -16.422252 & -0.015968 & True & TabNet significantly different from VotingEnsemble (p=0.0000) \\
+Independent t-test & ['ResNet1D', 'BiLSTM_Attention'] & -30.764789 & 0.000000 & -8.079229 & -0.008396 & True & ResNet1D significantly different from BiLSTM_Attention (p=0.0000) \\
+Independent t-test & ['ResNet1D', 'GRU'] & -48.498201 & 0.000000 & -12.736251 & -0.013311 & True & ResNet1D significantly different from GRU (p=0.0000) \\
+Independent t-test & ['ResNet1D', 'FT_Transformer'] & -10.254027 & 0.000000 & -2.692839 & -0.002920 & True & ResNet1D significantly different from FT_Transformer (p=0.0000) \\
+Independent t-test & ['ResNet1D', 'VotingEnsemble'] & -38.479405 & 0.000000 & -10.105187 & -0.011475 & True & ResNet1D significantly different from VotingEnsemble (p=0.0000) \\
+Independent t-test & ['BiLSTM_Attention', 'GRU'] & -20.491667 & 0.000000 & -5.381376 & -0.004915 & True & BiLSTM_Attention significantly different from GRU (p=0.0000) \\
+Independent t-test & ['BiLSTM_Attention', 'FT_Transformer'] & 21.765976 & 0.000000 & 5.716025 & 0.005476 & True & BiLSTM_Attention significantly different from FT_Transformer (p=0.0000) \\
+Independent t-test & ['BiLSTM_Attention', 'VotingEnsemble'] & -11.545265 & 0.000000 & -3.031935 & -0.003079 & True & BiLSTM_Attention significantly different from VotingEnsemble (p=0.0000) \\
+Independent t-test & ['GRU', 'FT_Transformer'] & 41.027372 & 0.000000 & 10.774316 & 0.010391 & True & GRU significantly different from FT_Transformer (p=0.0000) \\
+Independent t-test & ['GRU', 'VotingEnsemble'] & 6.842688 & 0.000000 & 1.796978 & 0.001836 & True & GRU significantly different from VotingEnsemble (p=0.0000) \\
+Independent t-test & ['FT_Transformer', 'VotingEnsemble'] & -30.682043 & 0.000000 & -8.057499 & -0.008555 & True & FT_Transformer significantly different from VotingEnsemble (p=0.0000) \\
+\bottomrule
+\end{tabular}
+\end{table}

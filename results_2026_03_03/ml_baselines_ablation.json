@@ -1,0 +1,65 @@
+{
+  "XGBoost": {
+    "accuracy": 0.939088,
+    "balanced_accuracy": 0.4865113232411573,
+    "f1_macro": 0.512418820958292,
+    "f1_weighted": 0.9369979359512706,
+    "precision_weighted": 0.9379086258697206,
+    "train_time": 71.48043918609619,
+    "inference_ms": 0.006219784736633301
+  },
+  "LightGBM": {
+    "accuracy": 0.927288,
+    "balanced_accuracy": 0.4667291048247625,
+    "f1_macro": 0.4657052706611361,
+    "f1_weighted": 0.9262888388527712,
+    "precision_weighted": 0.926685849648127,
+    "train_time": 16.226219177246094,
+    "inference_ms": 0.004000779151916504
+  },
+  "CatBoost": {
+    "accuracy": 0.93265,
+    "balanced_accuracy": 0.43374945351619554,
+    "f1_macro": 0.4503284087222176,
+    "f1_weighted": 0.928761330490607,
+    "precision_weighted": 0.9304995966017141,
+    "train_time": 39.83607506752014,
+    "inference_ms": 0.0004765138626098633
+  },
+  "RandomForest": {
+    "accuracy": 0.937106,
+    "balanced_accuracy": 0.474710092879956,
+    "f1_macro": 0.497013586716458,
+    "f1_weighted": 0.9348408756752828,
+    "precision_weighted": 0.9348251037621326,
+    "train_time": 44.758726596832275,
+    "inference_ms": 0.003929266452789307
+  },
+  "XGBoost_top30": {
+    "accuracy": 0.935524,
+    "balanced_accuracy": 0.4785797378084877,
+    "f1_macro": 0.5060754692196299,
+    "f1_weighted": 0.9332605213361851,
+    "precision_weighted": 0.9340304434638548,
+    "train_time": 15.083202600479126,
+    "inference_ms": 0.0016847405433654786
+  },
+  "XGBoost_top10": {
+    "accuracy": 0.91867,
+    "balanced_accuracy": 0.42387954170086517,
+    "f1_macro": 0.4567158007981233,
+    "f1_weighted": 0.9141517531960345,
+    "precision_weighted": 0.9138780230363257,
+    "train_time": 10.60306692123413,
+    "inference_ms": 0.0016342496871948242
+  },
+  "XGBoost_top50": {
+    "accuracy": 0.938144,
+    "balanced_accuracy": 0.4894379875869139,
+    "f1_macro": 0.5180163977977144,
+    "f1_weighted": 0.9361304077797838,
+    "precision_weighted": 0.9370428004931549,
+    "train_time": 19.03455638885498,
+    "inference_ms": 0.0016052327156066896
+  }
+}

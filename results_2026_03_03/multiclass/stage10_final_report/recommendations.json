@@ -1,0 +1,26 @@
+{
+  "best_overall": {
+    "category": "Best Overall Model",
+    "model": "VotingEnsemble",
+    "accuracy": 0.9020866250433496,
+    "reason": "Highest test accuracy across all evaluated models"
+  },
+  "best_robustness": {
+    "category": "Best Robustness",
+    "model": "Evaluated Model",
+    "score": 0.8638040504968906,
+    "reason": "Highest overall robustness under FGSM, PGD, and noise attacks"
+  },
+  "best_xai": {
+    "category": "Best XAI Method",
+    "method": "SHAP",
+    "fidelity": 0.7666666666666667,
+    "reason": "Highest fidelity score for model explanations"
+  },
+  "best_generalization": {
+    "category": "Best Cross-Dataset Generalization",
+    "model": "ResNet1D",
+    "score": 0.97765,
+    "reason": "Best performance on unseen dataset splits"
+  }
+}

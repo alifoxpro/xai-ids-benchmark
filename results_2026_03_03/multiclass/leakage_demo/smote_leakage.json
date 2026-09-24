@@ -1,0 +1,22 @@
+{
+  "A_leaky_smote_before_split": {
+    "accuracy": 0.9238733665341349,
+    "balanced_accuracy": 0.9238737092370497,
+    "f1_macro": 0.9239520323331079,
+    "note": "test set contains SMOTE-synthetic points correlated with train"
+  },
+  "B_correct_smote_train_only": {
+    "accuracy": 0.9195833333333333,
+    "balanced_accuracy": 0.529836873483954,
+    "f1_macro": 0.466936738395039
+  },
+  "C_ours_class_weighted": {
+    "accuracy": 0.9178055555555555,
+    "balanced_accuracy": 0.5115836606926023,
+    "f1_macro": 0.4522246965739164
+  },
+  "inflation": {
+    "accuracy_A_minus_B": 0.0043,
+    "f1_macro_A_minus_B": 0.457
+  }
+}
